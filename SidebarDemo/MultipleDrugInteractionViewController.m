@@ -183,7 +183,7 @@
         [idarr addObject:str];
     }
  
-    //NSLog(@"%lu   %@",(unsigned long)idarr.count,idarr);
+    NSLog(@"%@",idarr);
     CheckForIneractionTableViewController *dfd = [self.storyboard instantiateViewControllerWithIdentifier:@"checkforint"];
     
     NSMutableArray *removeelement = [[NSMutableArray alloc]init];
