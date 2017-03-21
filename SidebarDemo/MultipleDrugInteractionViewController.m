@@ -93,7 +93,7 @@
     
     
     NSInteger indexOfname = [self.dbManager.arrColumnNames indexOfObject:@"name"];
-   NSInteger indexOfrxid = [self.dbManager.arrColumnNames indexOfObject:@"id"];
+   //NSInteger indexOfrxid = [self.dbManager.arrColumnNames indexOfObject:@"id"];
     
     
     // Set the loaded data to the appropriate cell labels.

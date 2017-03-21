@@ -18,8 +18,12 @@
 		75679C531E76D01E003B8AFA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75679C521E76D01E003B8AFA /* libsqlite3.tbd */; };
 		75679C561E76D6C5003B8AFA /* SearchByNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75679C551E76D6C5003B8AFA /* SearchByNameViewController.m */; };
 		75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75679C581E76D70B003B8AFA /* SearchByNameTableViewController.m */; };
+		7584CC7A1E80FD1F009B029F /* HealthTopicsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7584CC791E80FD1F009B029F /* HealthTopicsSearchViewController.m */; };
+		7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7584CC7F1E80FD77009B029F /* HealthTopicDescViewController.m */; };
 		7585616B1E756B23002B7729 /* DrugInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585616A1E756B23002B7729 /* DrugInfoViewController.m */; };
 		7585616E1E7582BC002B7729 /* DrugInfoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585616D1E7582BC002B7729 /* DrugInfoDetailsViewController.m */; };
+		75DD25021E817D0400136CFA /* healthtopics.db in Resources */ = {isa = PBXBuildFile; fileRef = 75DD25011E817D0400136CFA /* healthtopics.db */; };
+		75DD25051E8191BD00136CFA /* HealthTopicsAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */; };
 		75E0E9321E7826E100BBDD32 /* DoctorFullinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9311E7826E100BBDD32 /* DoctorFullinfoViewController.m */; };
 		75E0E9351E78373100BBDD32 /* CountryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9341E78373100BBDD32 /* CountryTableViewController.m */; };
 		75E0E9381E78374600BBDD32 /* StateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9371E78374600BBDD32 /* StateTableViewController.m */; };
@@ -29,6 +33,9 @@
 		75E0E9441E784AB200BBDD32 /* DoctorByTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9431E784AB200BBDD32 /* DoctorByTypeTableViewController.m */; };
 		75E0E9471E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9461E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m */; };
 		75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9491E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m */; };
+		75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724601E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m */; };
+		75F724641E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724631E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m */; };
+		75F724671E7C55A2009E39DE /* DrugInteractionMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724661E7C55A2009E39DE /* DrugInteractionMainViewController.m */; };
 		F4090B941A0F67D000651F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B931A0F67D000651F6F /* main.m */; };
 		F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B961A0F67D000651F6F /* AppDelegate.m */; };
 		F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B991A0F67D000651F6F /* ViewController.m */; };
@@ -73,10 +80,17 @@
 		75679C551E76D6C5003B8AFA /* SearchByNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchByNameViewController.m; path = ../SearchByNameViewController.m; sourceTree = "<group>"; };
 		75679C571E76D70B003B8AFA /* SearchByNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByNameTableViewController.h; sourceTree = "<group>"; };
 		75679C581E76D70B003B8AFA /* SearchByNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByNameTableViewController.m; sourceTree = "<group>"; };
+		7584CC781E80FD1F009B029F /* HealthTopicsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthTopicsSearchViewController.h; sourceTree = "<group>"; };
+		7584CC791E80FD1F009B029F /* HealthTopicsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTopicsSearchViewController.m; sourceTree = "<group>"; };
+		7584CC7E1E80FD77009B029F /* HealthTopicDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthTopicDescViewController.h; sourceTree = "<group>"; };
+		7584CC7F1E80FD77009B029F /* HealthTopicDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTopicDescViewController.m; sourceTree = "<group>"; };
 		758561691E756B23002B7729 /* DrugInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoViewController.h; sourceTree = "<group>"; };
 		7585616A1E756B23002B7729 /* DrugInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoViewController.m; sourceTree = "<group>"; };
 		7585616C1E7582BC002B7729 /* DrugInfoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoDetailsViewController.h; sourceTree = "<group>"; };
 		7585616D1E7582BC002B7729 /* DrugInfoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoDetailsViewController.m; sourceTree = "<group>"; };
+		75DD25011E817D0400136CFA /* healthtopics.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthtopics.db; sourceTree = "<group>"; };
+		75DD25031E8191BD00136CFA /* HealthTopicsAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthTopicsAllTableViewController.h; sourceTree = "<group>"; };
+		75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTopicsAllTableViewController.m; sourceTree = "<group>"; };
 		75E0E9301E7826E100BBDD32 /* DoctorFullinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorFullinfoViewController.h; sourceTree = "<group>"; };
 		75E0E9311E7826E100BBDD32 /* DoctorFullinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorFullinfoViewController.m; sourceTree = "<group>"; };
 		75E0E9331E78373100BBDD32 /* CountryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryTableViewController.h; sourceTree = "<group>"; };
@@ -95,6 +109,12 @@
 		75E0E9461E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorBySpecilityTableViewController.m; sourceTree = "<group>"; };
 		75E0E9481E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDoctorBySpecilityTableViewController.h; sourceTree = "<group>"; };
 		75E0E9491E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDoctorBySpecilityTableViewController.m; sourceTree = "<group>"; };
+		75F7245F1E7C5498009E39DE /* SingleDrugInteractionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDrugInteractionSearchViewController.h; sourceTree = "<group>"; };
+		75F724601E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleDrugInteractionSearchViewController.m; sourceTree = "<group>"; };
+		75F724621E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDrugInteractionInfoTableViewController.h; sourceTree = "<group>"; };
+		75F724631E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleDrugInteractionInfoTableViewController.m; sourceTree = "<group>"; };
+		75F724651E7C55A2009E39DE /* DrugInteractionMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInteractionMainViewController.h; sourceTree = "<group>"; };
+		75F724661E7C55A2009E39DE /* DrugInteractionMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInteractionMainViewController.m; sourceTree = "<group>"; };
 		F4090B8E1A0F67D000651F6F /* DrugFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrugFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4090B921A0F67D000651F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4090B931A0F67D000651F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -152,6 +172,7 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				75DD25011E817D0400136CFA /* healthtopics.db */,
 				7532850F1E7BF081001788BB /* interaction.db */,
 				75679C4E1E76CFDD003B8AFA /* DBManager.h */,
 				75679C4F1E76CFDD003B8AFA /* DBManager.m */,
@@ -228,6 +249,18 @@
 				7505E9031E7962B00099D2CE /* MultipleDrugAddViewController.m */,
 				7505E9051E7962F40099D2CE /* CheckForIneractionTableViewController.h */,
 				7505E9061E7962F40099D2CE /* CheckForIneractionTableViewController.m */,
+				75F7245F1E7C5498009E39DE /* SingleDrugInteractionSearchViewController.h */,
+				75F724601E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m */,
+				75F724621E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.h */,
+				75F724631E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m */,
+				75F724651E7C55A2009E39DE /* DrugInteractionMainViewController.h */,
+				75F724661E7C55A2009E39DE /* DrugInteractionMainViewController.m */,
+				7584CC781E80FD1F009B029F /* HealthTopicsSearchViewController.h */,
+				7584CC791E80FD1F009B029F /* HealthTopicsSearchViewController.m */,
+				7584CC7E1E80FD77009B029F /* HealthTopicDescViewController.h */,
+				7584CC7F1E80FD77009B029F /* HealthTopicDescViewController.m */,
+				75DD25031E8191BD00136CFA /* HealthTopicsAllTableViewController.h */,
+				75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -311,7 +344,7 @@
 		F4090B861A0F67D000651F6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = AppCoda;
 				TargetAttributes = {
 					F4090B8D1A0F67D000651F6F = {
@@ -355,6 +388,7 @@
 				75679C4B1E76CF74003B8AFA /* doctorlist.db in Resources */,
 				75679C4A1E76CF74003B8AFA /* doctordbsupport.db in Resources */,
 				753285101E7BF081001788BB /* interaction.db in Resources */,
+				75DD25021E817D0400136CFA /* healthtopics.db in Resources */,
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
 				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
 				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
@@ -385,19 +419,25 @@
 				75E0E9381E78374600BBDD32 /* StateTableViewController.m in Sources */,
 				75679C561E76D6C5003B8AFA /* SearchByNameViewController.m in Sources */,
 				75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */,
+				75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */,
 				75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */,
+				7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */,
 				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,
 				75679C501E76CFDD003B8AFA /* DBManager.m in Sources */,
 				F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */,
 				75679C471E76B341003B8AFA /* DrugInfoallinfoViewController.m in Sources */,
+				7584CC7A1E80FD1F009B029F /* HealthTopicsSearchViewController.m in Sources */,
 				F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */,
 				7505E9011E79628B0099D2CE /* MultipleDrugInteractionViewController.m in Sources */,
 				F4090B941A0F67D000651F6F /* main.m in Sources */,
 				7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */,
+				75F724671E7C55A2009E39DE /* DrugInteractionMainViewController.m in Sources */,
+				75DD25051E8191BD00136CFA /* HealthTopicsAllTableViewController.m in Sources */,
 				75E0E93B1E78375300BBDD32 /* CityTableViewController.m in Sources */,
 				F4090BBD1A0FD53800651F6F /* MapViewController.m in Sources */,
 				75E0E9321E7826E100BBDD32 /* DoctorFullinfoViewController.m in Sources */,
 				75E0E9471E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m in Sources */,
+				75F724641E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m in Sources */,
 				7585616B1E756B23002B7729 /* DrugInfoViewController.m in Sources */,
 				F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */,
 				F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */,
@@ -455,15 +495,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -496,8 +540,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -505,6 +551,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -556,6 +603,7 @@
 				);
 				INFOPLIST_FILE = SidebarDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugFinder.app/DrugFinder";
 			};
@@ -571,6 +619,7 @@
 				);
 				INFOPLIST_FILE = SidebarDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugFinder.app/DrugFinder";
 			};
