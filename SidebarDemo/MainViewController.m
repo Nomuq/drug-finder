@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.title = @"Search";
+    self.title = @"Home";
 
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )

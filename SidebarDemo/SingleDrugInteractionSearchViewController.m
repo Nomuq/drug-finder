@@ -9,6 +9,7 @@
 #import "SingleDrugInteractionSearchViewController.h"
 #import "DBManager.h"
 #import "SingleDrugInteractionInfoTableViewController.h"
+#import "SWRevealViewController.h"
 @interface SingleDrugInteractionSearchViewController ()
 @property (nonatomic, strong) DBManager *dbManager;
 @end
@@ -17,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"interaction.db"];
     // Do any additional setup after loading the view.
 }

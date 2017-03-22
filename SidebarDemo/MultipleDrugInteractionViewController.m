@@ -24,13 +24,14 @@
     // Do any additional setup after loading the view.
     
     
-//    SWRevealViewController *revealViewController = self.revealViewController;
-//    if ( revealViewController )
-//    {
-//        [self.tabbar setTarget: self.revealViewController];
-//        [self.tabbar setAction: @selector( revealToggle: )];
-//        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-//    }
+    
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     
     namearr = [[NSMutableArray alloc]init];
     [super viewDidLoad];

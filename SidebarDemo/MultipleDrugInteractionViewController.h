@@ -20,5 +20,5 @@
 - (IBAction)act_clear:(id)sender;
 
 - (IBAction)act_checkforintraction:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @end

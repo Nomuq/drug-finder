@@ -5,7 +5,7 @@
 //  Created by Satish on 3/21/17.
 //  Copyright © 2017 AppCoda. All rights reserved.
 //
-
+#import "SWRevealViewController.h"
 #import "HealthTopicsAllTableViewController.h"
 #import "DBManager.h"
 #import "HealthTopicDescViewController.h"
@@ -20,7 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

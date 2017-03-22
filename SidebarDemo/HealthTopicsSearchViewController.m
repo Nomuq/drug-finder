@@ -9,6 +9,7 @@
 #import "HealthTopicsSearchViewController.h"
 #import <Foundation/Foundation.h>
 #import "DBManager.h"
+#import "SWRevealViewController.h"
 #import "HealthTopicDescViewController.h"
 @interface HealthTopicsSearchViewController ()
 @property (nonatomic, strong) DBManager *dbManager;
@@ -21,6 +22,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"healthtopics.db"];
     // Do any additional setup after loading the view.

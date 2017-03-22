@@ -30,7 +30,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="29"/>
+            <point key="canvasLocation" x="-241" y="-423"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="XhZ-Ni-b1j">
@@ -114,7 +114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cih-Oh-6Yi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2142.5" y="246.5"/>
+            <point key="canvasLocation" x="1735" y="732"/>
         </scene>
         <!--Country Table View Controller-->
         <scene sceneID="zOy-aw-JCr">
@@ -155,7 +155,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mY3-lQ-BaH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4092.5" y="246.5"/>
+            <point key="canvasLocation" x="2765" y="732"/>
         </scene>
         <!--Search By Name-->
         <scene sceneID="PuL-6E-tbB">
@@ -231,8 +231,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Search By Name" id="Y51-Pg-B87"/>
+                    <navigationItem key="navigationItem" title="Search By Name" id="Y51-Pg-B87">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="DCv-ac-DfL"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="sidebarButton" destination="DCv-ac-DfL" id="FlQ-rQ-wMB"/>
                         <outlet property="txt_fname" destination="u8M-Fb-1jr" id="jo5-lf-gxY"/>
                         <outlet property="txt_lastname" destination="CaH-1W-kpZ" id="eRC-0d-jJo"/>
                         <outlet property="txt_middlename" destination="nzZ-wQ-h73" id="5d0-yG-T5R"/>
@@ -240,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOf-bL-zin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2621.5" y="246.5"/>
+            <point key="canvasLocation" x="2178" y="1559"/>
         </scene>
         <!--Doctor By Type Table View Controller-->
         <scene sceneID="clX-UX-3zT">
@@ -278,7 +281,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xsb-X2-dxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6247.5" y="237.5"/>
+            <point key="canvasLocation" x="3920" y="1559"/>
         </scene>
         <!--Doctor By Specility Table View Controller-->
         <scene sceneID="ips-ZG-WMd">
@@ -315,7 +318,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aOs-77-Tis" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6713.5" y="237.5"/>
+            <point key="canvasLocation" x="4491" y="1559"/>
         </scene>
         <!--All Doctor By Specility Table View Controller-->
         <scene sceneID="Iz4-dJ-aVQ">
@@ -359,7 +362,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccd-Y3-Yxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7160.5" y="237.5"/>
+            <point key="canvasLocation" x="5026" y="1559"/>
         </scene>
         <!--State Table View Controller-->
         <scene sceneID="5p0-hv-WMf">
@@ -396,7 +399,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KwG-8h-t3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4519.5" y="246.5"/>
+            <point key="canvasLocation" x="3355" y="732"/>
         </scene>
         <!--City Table View Controller-->
         <scene sceneID="8hM-9M-GWR">
@@ -433,7 +436,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wo2-Md-lZJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4923.5" y="240.5"/>
+            <point key="canvasLocation" x="3920" y="732"/>
         </scene>
         <!--Zipcode Table View Controller-->
         <scene sceneID="asQ-dK-Tyx">
@@ -470,7 +473,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sfd-VP-YuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5350.5" y="237.5"/>
+            <point key="canvasLocation" x="4491" y="732"/>
         </scene>
         <!--Doctorby Address Table View Controller-->
         <scene sceneID="suE-cN-8az">
@@ -514,7 +517,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAJ-r8-IZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5773.5" y="237.5"/>
+            <point key="canvasLocation" x="5026" y="732"/>
         </scene>
         <!--Search By Name Table View Controller-->
         <scene sceneID="C9M-hm-a6G">
@@ -561,7 +564,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3mU-Ja-heH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3116.5" y="246.5"/>
+            <point key="canvasLocation" x="2765" y="1559"/>
         </scene>
         <!--Full Info-->
         <scene sceneID="eHg-dd-DIg">
@@ -685,7 +688,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tPv-p9-l0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3630.5" y="246.5"/>
+            <point key="canvasLocation" x="3355" y="1559"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="jZ6-Nu-3CT">
@@ -723,7 +726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gWP-sa-Vux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1556" y="982"/>
+            <point key="canvasLocation" x="399" y="1628"/>
         </scene>
         <!--Drug Interaction Main View Controller-->
         <scene sceneID="px6-H4-yf5">
@@ -774,11 +777,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0Xi-rT-eVl"/>
+                    <navigationItem key="navigationItem" id="0Xi-rT-eVl">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="J5Z-GU-b5E"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sidebarButton" destination="J5Z-GU-b5E" id="JxE-5e-hNd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdz-gg-6qK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2162.5" y="-1552.5"/>
+            <point key="canvasLocation" x="1861" y="-1433"/>
         </scene>
         <!--Multiple Drug Interaction View Controller-->
         <scene sceneID="Gc6-cQ-pyH">
@@ -841,6 +849,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="wHN-Tu-OvB">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="Pt2-FG-2qc"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="yGw-5O-uQ7">
                             <connections>
                                 <segue destination="7zt-aO-ARI" kind="push" id="7KD-Bd-1sg"/>
@@ -848,12 +857,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="sidebarButton" destination="Pt2-FG-2qc" id="Noc-0S-tvq"/>
                         <outlet property="tableView" destination="4rA-aP-nnh" id="of1-fs-vS9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppj-tO-2eV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2676.5" y="-1553.5"/>
+            <point key="canvasLocation" x="2557" y="-1434"/>
         </scene>
         <!--Add Medications-->
         <scene sceneID="Lod-kl-JF7">
@@ -930,7 +940,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4k-98-GkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3137.5" y="-1977.5"/>
+            <point key="canvasLocation" x="3135" y="-1436"/>
         </scene>
         <!--Check For Ineraction Table View Controller-->
         <scene sceneID="qi6-0o-iRD">
@@ -975,7 +985,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sab-X4-9ZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3582.5" y="-1552.5"/>
+            <point key="canvasLocation" x="3739" y="-1436"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="EDl-71-Ti2">
@@ -1014,7 +1024,7 @@
                                             <rect key="frame" x="16" y="3" width="38" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEh-w7-uj4">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEh-w7-uj4">
                                             <rect key="frame" x="62" y="6" width="108" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
@@ -1192,7 +1202,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sfe-3o-uiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="987" y="708"/>
+            <point key="canvasLocation" x="399" y="732"/>
         </scene>
         <!--Drug Info View Controller-->
         <scene sceneID="d42-dN-dF7">
@@ -1513,7 +1523,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ij-7F-iiO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="767" y="-2597"/>
+            <point key="canvasLocation" x="314" y="-2458"/>
         </scene>
         <!--Search-->
         <scene sceneID="mP1-iy-si9">
@@ -1586,14 +1596,14 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="sidebarButton" destination="ca6-5k-2hn" id="cTG-Qn-n51"/>
+                        <outlet property="sidebarButton" destination="Naz-kK-pPu" id="hkE-k9-2vD"/>
                         <outlet property="tableview" destination="fHH-Ji-hKs" id="2an-Xn-0Zk"/>
                         <outlet property="txt_search" destination="PgL-Dw-WcV" id="jlk-7g-fYt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wrp-oO-t2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="-1865"/>
+            <point key="canvasLocation" x="314" y="-1434"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vf9-VX-vA0">
@@ -1611,7 +1621,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giA-8j-ZgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="-95"/>
+            <point key="canvasLocation" x="1008" y="732"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="B6V-J0-bbs">
@@ -1629,7 +1639,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHw-Hf-La5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1590.5" y="-618.5"/>
+            <point key="canvasLocation" x="1255" y="-423"/>
         </scene>
         <!--Search Med-->
         <scene sceneID="yJg-Vk-ASW">
@@ -1698,15 +1708,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Search Med" id="MeT-59-xIx"/>
+                    <navigationItem key="navigationItem" title="Search Med" id="MeT-59-xIx">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="VK1-Pb-vzM"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="sidebarButton" destination="VK1-Pb-vzM" id="H5h-KS-XBB"/>
                         <outlet property="tableview" destination="UCZ-pw-Mue" id="Wv4-eT-7gT"/>
                         <outlet property="txt_search" destination="7Xl-1F-Jjn" id="SH3-jk-jO6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1d3-Op-7Ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860.5" y="-2441.5"/>
+            <point key="canvasLocation" x="2557" y="-2338"/>
         </scene>
         <!--Single Drug Interaction Info Table View Controller-->
         <scene sceneID="62P-yu-W1O">
@@ -1743,7 +1756,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9th-v9-ORb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2380.5" y="-2440.5"/>
+            <point key="canvasLocation" x="3135" y="-2339"/>
         </scene>
         <!--Health Topic Desc View Controller-->
         <scene sceneID="ROA-aj-xN6">
@@ -1771,7 +1784,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXh-D9-znH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049.5" y="-1865.5"/>
+            <point key="canvasLocation" x="870" y="-2459"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dWh-Yc-iue">
@@ -1789,7 +1802,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fpt-B3-nWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1552.5" y="-1551.5"/>
+            <point key="canvasLocation" x="1255" y="-1434"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qty-YN-lo9">
@@ -1808,7 +1821,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJi-LY-AJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158.5" y="-1864.5"/>
+            <point key="canvasLocation" x="-242" y="-1434"/>
         </scene>
     </scenes>
     <resources>

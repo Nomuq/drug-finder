@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_lastname;
 - (IBAction)act_search:(id)sender;
 
-
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 
 
