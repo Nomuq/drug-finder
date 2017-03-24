@@ -29,6 +29,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_search;
 - (IBAction)act_search:(id)sender;
 
+- (IBAction)act_search_end:(id)sender;
+
+
 @property (nonatomic) NSString *str;
 @property (nonatomic) NSString *strid;
 @property (weak, nonatomic) IBOutlet UITableView *tableview;

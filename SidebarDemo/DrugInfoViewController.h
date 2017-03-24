@@ -24,5 +24,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 
+- (IBAction)act_search_end:(id)sender;
 
 @end

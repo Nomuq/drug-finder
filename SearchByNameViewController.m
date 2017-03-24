@@ -61,4 +61,7 @@
 {
     [self.view endEditing:YES];
 }
+- (IBAction)end_editing:(id)sender {
+    [self.view endEditing:YES];
+}
 @end

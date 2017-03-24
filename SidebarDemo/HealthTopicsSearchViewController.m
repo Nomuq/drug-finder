@@ -75,6 +75,10 @@
     
 }
 
+- (IBAction)act_search_end:(id)sender {
+    [self.view endEditing:YES];
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     

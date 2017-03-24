@@ -18,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 
+- (IBAction)end_editing:(id)sender;
 
 @end
