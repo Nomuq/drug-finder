@@ -64,4 +64,8 @@
 - (IBAction)end_editing:(id)sender {
     [self.view endEditing:YES];
 }
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.view endEditing:YES];
+}
 @end

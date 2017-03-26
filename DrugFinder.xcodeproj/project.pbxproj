@@ -12,6 +12,9 @@
 		7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9061E7962F40099D2CE /* CheckForIneractionTableViewController.m */; };
 		753285101E7BF081001788BB /* interaction.db in Resources */ = {isa = PBXBuildFile; fileRef = 7532850F1E7BF081001788BB /* interaction.db */; };
 		75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A001E87F063008FD068 /* MedDicSearchViewController.m */; };
+		75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */; };
+		75383A061E8836C9008FD068 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75383A051E8836C9008FD068 /* AVFoundation.framework */; };
+		75383A081E8836CE008FD068 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75383A071E8836CE008FD068 /* AVKit.framework */; };
 		75679C471E76B341003B8AFA /* DrugInfoallinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75679C461E76B341003B8AFA /* DrugInfoallinfoViewController.m */; };
 		75679C4A1E76CF74003B8AFA /* doctordbsupport.db in Resources */ = {isa = PBXBuildFile; fileRef = 75679C481E76CF74003B8AFA /* doctordbsupport.db */; };
 		75679C4B1E76CF74003B8AFA /* doctorlist.db in Resources */ = {isa = PBXBuildFile; fileRef = 75679C491E76CF74003B8AFA /* doctorlist.db */; };
@@ -72,6 +75,10 @@
 		7532850F1E7BF081001788BB /* interaction.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = interaction.db; sourceTree = "<group>"; };
 		753839FF1E87F063008FD068 /* MedDicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicSearchViewController.h; sourceTree = "<group>"; };
 		75383A001E87F063008FD068 /* MedDicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicSearchViewController.m; sourceTree = "<group>"; };
+		75383A021E882C7B008FD068 /* MedDicSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicSubTableViewController.h; sourceTree = "<group>"; };
+		75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicSubTableViewController.m; sourceTree = "<group>"; };
+		75383A051E8836C9008FD068 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		75383A071E8836CE008FD068 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		75679C451E76B341003B8AFA /* DrugInfoallinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoallinfoViewController.h; sourceTree = "<group>"; };
 		75679C461E76B341003B8AFA /* DrugInfoallinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoallinfoViewController.m; sourceTree = "<group>"; };
 		75679C481E76CF74003B8AFA /* doctordbsupport.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = doctordbsupport.db; sourceTree = "<group>"; };
@@ -149,6 +156,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75383A081E8836CE008FD068 /* AVKit.framework in Frameworks */,
+				75383A061E8836C9008FD068 /* AVFoundation.framework in Frameworks */,
 				75679C531E76D01E003B8AFA /* libsqlite3.tbd in Frameworks */,
 				F4090BCC1A10563200651F6F /* MapKit.framework in Frameworks */,
 			);
@@ -167,6 +176,8 @@
 		75679C511E76D01E003B8AFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75383A071E8836CE008FD068 /* AVKit.framework */,
+				75383A051E8836C9008FD068 /* AVFoundation.framework */,
 				75679C521E76D01E003B8AFA /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
@@ -266,6 +277,8 @@
 				75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */,
 				753839FF1E87F063008FD068 /* MedDicSearchViewController.h */,
 				75383A001E87F063008FD068 /* MedDicSearchViewController.m */,
+				75383A021E882C7B008FD068 /* MedDicSubTableViewController.h */,
+				75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -426,6 +439,7 @@
 				75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */,
 				75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */,
 				75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */,
+				75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */,
 				75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */,
 				7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */,
 				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,

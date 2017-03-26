@@ -8,6 +8,7 @@
 
 #import "MedDicSearchViewController.h"
 #import "SWRevealViewController.h"
+#import "MedDicSubTableViewController.h"
 #import <Foundation/Foundation.h>
 @interface MedDicSearchViewController ()
 @property (nonatomic, strong) NSXMLParser *xmlParser;
@@ -34,7 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.uiview_info.hidden = YES;
+    //self.uiview_info.hidden = YES;
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
     {
@@ -132,7 +133,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    MedDicSubTableViewController *update = [self.storyboard instantiateViewControllerWithIdentifier:@"meddicsub"];
     
+    update.title = self.arrqueryresult[indexPath.row];
+
+    
+    [self.navigationController pushViewController:update animated:YES];
     
     
 }
@@ -195,4 +201,15 @@
     }
     }
 
+- (IBAction)tap:(id)sender {
+    [self.view endEditing:YES];
+}
+
+- (IBAction)swipe:(id)sender {
+    [self.view endEditing:YES];
+}
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.view endEditing:YES];
+}
 @end

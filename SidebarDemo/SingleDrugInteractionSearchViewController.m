@@ -141,4 +141,8 @@
 {
     [self.view endEditing:YES];
 }
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.view endEditing:YES];
+}
 @end

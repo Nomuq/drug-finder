@@ -19,5 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 @property (weak, nonatomic) IBOutlet UIView *uiview_info;
 
+- (IBAction)tap:(id)sender;
+- (IBAction)swipe:(id)sender;
 
 @end
