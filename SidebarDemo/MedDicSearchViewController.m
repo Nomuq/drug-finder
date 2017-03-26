@@ -20,12 +20,21 @@
 @property (nonatomic, strong) NSMutableArray *tempfile;
 @property (nonatomic, strong) NSString *currentElement;
 @property (nonatomic, strong) NSArray *arrqueryresult;
+@property (nonatomic, strong) NSMutableArray *arrtitle;
+@property (nonatomic, strong) NSMutableArray *arrdesc;
+@property (nonatomic, strong) NSMutableArray *arrqsound;
+@property (nonatomic, strong) NSString *flag;
+
+@property (nonatomic, strong) NSMutableDictionary *final;
+
+
 @end
 
 @implementation MedDicSearchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.uiview_info.hidden = YES;
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
     {
@@ -65,6 +74,9 @@
             self.xmlParser.delegate = self;
             
             self.tempfile = [[NSMutableArray alloc]init];
+                    self.arrtitle = [[NSMutableArray alloc]init];
+                    self.arrdesc = [[NSMutableArray alloc]init];
+                    self.arrqsound = [[NSMutableArray alloc]init];
             // Start parsing.
             [self.xmlParser parse];
             
@@ -120,13 +132,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-//    
-//    DrugInfoDetailsViewController *dfd = [self.storyboard instantiateViewControllerWithIdentifier:@"druginfodetails"];
-//    dfd.strname = jsonarr[indexPath.row];
-//    
-//    
-//    [self.navigationController pushViewController:dfd animated:YES];
+    
+    
+    
 }
+    
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
@@ -159,7 +169,7 @@
     // Store the found characters if only we're interested in the current element.
     //NSLog(@"%@", self.currentElement);
     if ([self.currentElement isEqual:@"suggestion"]) {
-        
+        self.flag = @"false";
         //NSLog(@"%@", string);
         NSString * newReplacedString1 = [string stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
         NSString * newReplacedString = [newReplacedString1 stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
@@ -171,6 +181,18 @@
         
         
     }
-}
+    
+    if ([self.currentElement isEqual:@"ew"]) {
+        self.flag = @"true";
+        //NSLog(@"%@", string);
+        
+            self.tempfile = [[NSMutableArray alloc]init];
+            [self.tempfile addObject:self.txt_search.text];
+        
+        
+        
+        
+    }
+    }
 
 @end

@@ -17,6 +17,7 @@
 - (IBAction)act_search:(id)sender;
 - (IBAction)act_search_end:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
+@property (weak, nonatomic) IBOutlet UIView *uiview_info;
 
 
 @end
