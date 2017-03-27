@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.txt_search becomeFirstResponder];
     // Do any additional setup after loading the view.
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
