@@ -39,7 +39,7 @@
         
         // Keep the database filename.
         self.databaseFilename = dbFilename;
-        
+        NSLog(@"%@", self.documentsDirectory);
         // Copy the database file into the documents directory if necessary.
         [self copyDatabaseIntoDocumentsDirectory];
     }

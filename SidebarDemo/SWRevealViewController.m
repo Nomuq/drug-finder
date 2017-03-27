@@ -679,6 +679,7 @@ const int FrontViewPositionNone = 0xff;
     //[super loadView];
     
     // load any defined front/rear controllers from the storyboard before
+    
     [self loadStoryboardControllers];
     
     // This is what Apple used to tell us to set as the initial frame, which is of course totally irrelevant

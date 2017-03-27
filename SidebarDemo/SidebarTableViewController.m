@@ -20,8 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //[self.view endEditing:YES];
     menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag",@"aids",@"meddic",@"toxnet",@"search"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,6 +47,7 @@
     NSString *CellIdentifier = [menuItems objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+
     return cell;
 }
 
