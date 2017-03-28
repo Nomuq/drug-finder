@@ -13,6 +13,10 @@
 		751A80F21E89355A00D08832 /* CCIRSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F11E89355A00D08832 /* CCIRSHomeViewController.m */; };
 		751A80F51E893E8400D08832 /* CCRISInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */; };
 		751A80FA1E895D2F00D08832 /* ccris2.db in Resources */ = {isa = PBXBuildFile; fileRef = 751A80F91E895D2F00D08832 /* ccris2.db */; };
+		75269C951E8A1E9400008681 /* lactmed.db in Resources */ = {isa = PBXBuildFile; fileRef = 75269C941E8A1E9400008681 /* lactmed.db */; };
+		75269C981E8A1FF000008681 /* LactMedHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C971E8A1FF000008681 /* LactMedHomeViewController.m */; };
+		75269C9B1E8A205200008681 /* LactMedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C9A1E8A205200008681 /* LactMedSearchViewController.m */; };
+		75269C9E1E8A215700008681 /* LactMedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C9D1E8A215700008681 /* LactMedTableViewController.m */; };
 		753285101E7BF081001788BB /* interaction.db in Resources */ = {isa = PBXBuildFile; fileRef = 7532850F1E7BF081001788BB /* interaction.db */; };
 		75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A001E87F063008FD068 /* MedDicSearchViewController.m */; };
 		75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */; };
@@ -81,6 +85,13 @@
 		751A80F31E893E8400D08832 /* CCRISInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRISInfoTableViewController.h; sourceTree = "<group>"; };
 		751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRISInfoTableViewController.m; sourceTree = "<group>"; };
 		751A80F91E895D2F00D08832 /* ccris2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ccris2.db; sourceTree = "<group>"; };
+		75269C941E8A1E9400008681 /* lactmed.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = lactmed.db; sourceTree = "<group>"; };
+		75269C961E8A1FF000008681 /* LactMedHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LactMedHomeViewController.h; sourceTree = "<group>"; };
+		75269C971E8A1FF000008681 /* LactMedHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedHomeViewController.m; sourceTree = "<group>"; };
+		75269C991E8A205200008681 /* LactMedSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LactMedSearchViewController.h; sourceTree = "<group>"; };
+		75269C9A1E8A205200008681 /* LactMedSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedSearchViewController.m; sourceTree = "<group>"; };
+		75269C9C1E8A215700008681 /* LactMedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LactMedTableViewController.h; sourceTree = "<group>"; };
+		75269C9D1E8A215700008681 /* LactMedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedTableViewController.m; sourceTree = "<group>"; };
 		7532850F1E7BF081001788BB /* interaction.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = interaction.db; sourceTree = "<group>"; };
 		753839FF1E87F063008FD068 /* MedDicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicSearchViewController.h; sourceTree = "<group>"; };
 		75383A001E87F063008FD068 /* MedDicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicSearchViewController.m; sourceTree = "<group>"; };
@@ -197,6 +208,7 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				75269C941E8A1E9400008681 /* lactmed.db */,
 				751A80F91E895D2F00D08832 /* ccris2.db */,
 				75DD25011E817D0400136CFA /* healthtopics.db */,
 				7532850F1E7BF081001788BB /* interaction.db */,
@@ -297,6 +309,12 @@
 				751A80F11E89355A00D08832 /* CCIRSHomeViewController.m */,
 				751A80F31E893E8400D08832 /* CCRISInfoTableViewController.h */,
 				751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */,
+				75269C961E8A1FF000008681 /* LactMedHomeViewController.h */,
+				75269C971E8A1FF000008681 /* LactMedHomeViewController.m */,
+				75269C991E8A205200008681 /* LactMedSearchViewController.h */,
+				75269C9A1E8A205200008681 /* LactMedSearchViewController.m */,
+				75269C9C1E8A215700008681 /* LactMedTableViewController.h */,
+				75269C9D1E8A215700008681 /* LactMedTableViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -427,6 +445,7 @@
 				751A80FA1E895D2F00D08832 /* ccris2.db in Resources */,
 				75DD25021E817D0400136CFA /* healthtopics.db in Resources */,
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
+				75269C951E8A1E9400008681 /* lactmed.db in Resources */,
 				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
 				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
 			);
@@ -446,8 +465,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75269C9E1E8A215700008681 /* LactMedTableViewController.m in Sources */,
 				75E0E9411E7837A500BBDD32 /* ZipcodeTableViewController.m in Sources */,
 				F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */,
+				75269C9B1E8A205200008681 /* LactMedSearchViewController.m in Sources */,
+				75269C981E8A1FF000008681 /* LactMedHomeViewController.m in Sources */,
 				7505E9041E7962B00099D2CE /* MultipleDrugAddViewController.m in Sources */,
 				7585616E1E7582BC002B7729 /* DrugInfoDetailsViewController.m in Sources */,
 				75E0E93E1E78378F00BBDD32 /* DoctorbyAddressTableViewController.m in Sources */,
