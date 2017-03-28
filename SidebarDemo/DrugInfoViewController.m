@@ -28,6 +28,7 @@
         [self.sidebarButton setAction: @selector( revealToggle: )];
         [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     }
+    [self.txt_search becomeFirstResponder];
     //    NSLog(@"%@", jsonarr);
 }
 
@@ -53,8 +54,13 @@
         
         NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=%@",_txt_search.text];
         NSURL *url = [[NSURL alloc]initWithString:str];
-        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        @try {
+            NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+            dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        } @catch (NSException *exception) {
+            NSLog(@"%@", exception);
+        }
+
         suggestionList = [dic objectForKey:@"suggestionGroup"];
         
         suggestion = [suggestionList objectForKey:@"suggestionList"];

@@ -65,8 +65,14 @@
 }
     //NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/interaction/list.json?rxcuis=207106+152923+656659"];
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+//    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+//    dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
     NSArray *array = [dic valueForKey:@"fullInteractionTypeGroup"];
     fullInteractionType = [[NSMutableArray alloc]init];
     for (NSDictionary *dict in array) {

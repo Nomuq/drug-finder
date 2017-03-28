@@ -24,11 +24,46 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     //https://rxnav.nlm.nih.gov/REST/interaction/interaction.json?rxcui=384455&sources=DrugBank
     //https://rxnav.nlm.nih.gov/REST/interaction/interaction.json?rxcui=384455&sources=ONCHigh
+    
+    loadingView = [[UIView alloc]initWithFrame:CGRectMake(100, 400, 80, 80)];
+    loadingView.backgroundColor = [UIColor colorWithWhite:0. alpha:0.6];
+    loadingView.layer.cornerRadius = 5;
+    
+    UIActivityIndicatorView *activityView=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    activityView.center = CGPointMake(loadingView.frame.size.width / 2.0, 35);
+    [activityView startAnimating];
+    activityView.tag = 100;
+    [loadingView addSubview:activityView];
+    
+    UILabel* lblLoading = [[UILabel alloc]initWithFrame:CGRectMake(0, 48, 80, 30)];
+    lblLoading.text = @"Loading...";
+    lblLoading.textColor = [UIColor whiteColor];
+    lblLoading.font = [UIFont fontWithName:lblLoading.font.fontName size:15];
+    lblLoading.textAlignment = NSTextAlignmentCenter;
+    [loadingView addSubview:lblLoading];
+    loadingView.center = self.view.center;
+    [self.view addSubview:loadingView];
+    
+    
+    [self loaddata];
+    [self.tableView reloadData];
+    
+    
+
+}
+-(void)loaddata{
+    
+    [loadingView setHidden:NO];
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/interaction/interaction.json?rxcui=%@&sources=DrugBank",self.strid];
     
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
+    
     //NSLog(@"%@", dic);
     NSArray *array = [dic valueForKey:@"interactionTypeGroup"];
     //NSLog(@"%@", array);
@@ -130,9 +165,8 @@
         }
     }
     
-
+    [loadingView setHidden:YES];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

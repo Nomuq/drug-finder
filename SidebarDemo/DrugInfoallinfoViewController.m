@@ -20,9 +20,15 @@
     NSLog(@"%@", _rxcui);
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/RxTerms/rxcui/%@/allinfo.json",self.rxcui];
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic2 = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    NSLog(@"%@", dic2);
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic2 = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
+    
+    
+    
     NSDictionary *dic = [dic2 objectForKey:@"rxtermsProperties"];
     self.title = @"Info";
     

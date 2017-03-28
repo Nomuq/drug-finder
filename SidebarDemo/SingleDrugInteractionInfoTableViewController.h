@@ -27,6 +27,9 @@
     NSMutableArray *name;
     NSMutableArray *nameeven;
     NSMutableArray *nameodd;
+    
+    UIView* loadingView;
+    
 }
 @property (nonatomic) NSString *strid;
 @end

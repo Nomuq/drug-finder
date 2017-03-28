@@ -20,6 +20,7 @@
     [super viewDidLoad];
    
      self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"interaction.db"];
+    [self.txt_search becomeFirstResponder];
     // Do any additional setup after loading the view.
 }
 
@@ -45,8 +46,14 @@
         
         NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=%@",_txt_search.text];
         NSURL *url = [[NSURL alloc]initWithString:str];
-        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        @try {
+            NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+            dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        } @catch (NSException *exception) {
+            NSLog(@"%@", exception);
+        }
+//        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+//        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
         suggestionList = [dic objectForKey:@"suggestionGroup"];
         
         suggestion = [suggestionList objectForKey:@"suggestionList"];
@@ -100,8 +107,14 @@
     
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/drugs.json?name=%@",self.str];
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
+//    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+//    dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     
     drugGroup = [dic objectForKey:@"drugGroup"];
     NSMutableArray *arr = [drugGroup objectForKey:@"conceptGroup"];

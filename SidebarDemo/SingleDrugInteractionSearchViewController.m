@@ -25,6 +25,7 @@
         [self.sidebarButton setAction: @selector( revealToggle: )];
         [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     }
+    [self.txt_search becomeFirstResponder];
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"interaction.db"];
     // Do any additional setup after loading the view.
 }
@@ -107,9 +108,14 @@
     
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/drugs.json?name=%@",self.str];
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    
+//    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+//    dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
     drugGroup = [dic objectForKey:@"drugGroup"];
     NSMutableArray *arr = [drugGroup objectForKey:@"conceptGroup"];
     //conceptProperties = [conceptGroup objectForKey:@"conceptProperties"];

@@ -25,6 +25,7 @@
 		752B21BD1E8AAB1000A9B406 /* HSBDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21BC1E8AAB1000A9B406 /* HSBDSearchViewController.m */; };
 		752B21C01E8AAB2A00A9B406 /* HSBDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */; };
 		752B21C21E8AABA800A9B406 /* hsdb.db in Resources */ = {isa = PBXBuildFile; fileRef = 752B21C11E8AABA800A9B406 /* hsdb.db */; };
+		752B21C51E8AD07700A9B406 /* MedDicHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21C41E8AD07700A9B406 /* MedDicHomeViewController.m */; };
 		753285101E7BF081001788BB /* interaction.db in Resources */ = {isa = PBXBuildFile; fileRef = 7532850F1E7BF081001788BB /* interaction.db */; };
 		75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A001E87F063008FD068 /* MedDicSearchViewController.m */; };
 		75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */; };
@@ -114,6 +115,8 @@
 		752B21BE1E8AAB2A00A9B406 /* HSBDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBDTableViewController.h; sourceTree = "<group>"; };
 		752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBDTableViewController.m; sourceTree = "<group>"; };
 		752B21C11E8AABA800A9B406 /* hsdb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hsdb.db; sourceTree = "<group>"; };
+		752B21C31E8AD07700A9B406 /* MedDicHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicHomeViewController.h; sourceTree = "<group>"; };
+		752B21C41E8AD07700A9B406 /* MedDicHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicHomeViewController.m; sourceTree = "<group>"; };
 		7532850F1E7BF081001788BB /* interaction.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = interaction.db; sourceTree = "<group>"; };
 		753839FF1E87F063008FD068 /* MedDicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicSearchViewController.h; sourceTree = "<group>"; };
 		75383A001E87F063008FD068 /* MedDicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicSearchViewController.m; sourceTree = "<group>"; };
@@ -351,6 +354,8 @@
 				752B21BC1E8AAB1000A9B406 /* HSBDSearchViewController.m */,
 				752B21BE1E8AAB2A00A9B406 /* HSBDTableViewController.h */,
 				752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */,
+				752B21C31E8AD07700A9B406 /* MedDicHomeViewController.h */,
+				752B21C41E8AD07700A9B406 /* MedDicHomeViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -520,6 +525,7 @@
 				75157E421E8A390E0025C74A /* AIDSHomeViewController.m in Sources */,
 				75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */,
 				75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */,
+				752B21C51E8AD07700A9B406 /* MedDicHomeViewController.m in Sources */,
 				75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */,
 				7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */,
 				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,

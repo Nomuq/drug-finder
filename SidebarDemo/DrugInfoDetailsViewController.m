@@ -23,8 +23,14 @@
 
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/drugs.json?name=%@",self.strname];
     NSURL *url = [[NSURL alloc]initWithString:str];
-    NSData *data =[[NSData alloc]initWithContentsOfURL:url];
-    dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    @try {
+        NSData *data =[[NSData alloc]initWithContentsOfURL:url];
+        dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
+   
+    
     
     drugGroup = [dic objectForKey:@"drugGroup"];
     NSMutableArray *arr = [drugGroup objectForKey:@"conceptGroup"];

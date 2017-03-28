@@ -29,7 +29,7 @@
         [self.sidebarButton setAction: @selector( revealToggle: )];
         [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     }
-    
+    [self.txt_search becomeFirstResponder];
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"healthtopics.db"];
     // Do any additional setup after loading the view.
    // self.tableview.delegate = self;

@@ -44,7 +44,7 @@
 */
 
 - (IBAction)act_search:(id)sender {
-    if ([_txt_fname.text isEqual:@""] && [_txt_middlename.text isEqual:@""] && [_txt_lastname isEqual:@""]) {
+    if ([_txt_fname.text isEqual:@""] && [_txt_middlename.text isEqual:@""] && [_txt_lastname.text isEqual:@""]) {
         NSLog(@"Please Enter Something");
     }
     else
