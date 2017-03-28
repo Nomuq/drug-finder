@@ -21,6 +21,10 @@
 		75269C981E8A1FF000008681 /* LactMedHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C971E8A1FF000008681 /* LactMedHomeViewController.m */; };
 		75269C9B1E8A205200008681 /* LactMedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C9A1E8A205200008681 /* LactMedSearchViewController.m */; };
 		75269C9E1E8A215700008681 /* LactMedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C9D1E8A215700008681 /* LactMedTableViewController.m */; };
+		752B21BA1E8AAAEA00A9B406 /* HSBDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21B91E8AAAEA00A9B406 /* HSBDHomeViewController.m */; };
+		752B21BD1E8AAB1000A9B406 /* HSBDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21BC1E8AAB1000A9B406 /* HSBDSearchViewController.m */; };
+		752B21C01E8AAB2A00A9B406 /* HSBDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */; };
+		752B21C21E8AABA800A9B406 /* hsdb.db in Resources */ = {isa = PBXBuildFile; fileRef = 752B21C11E8AABA800A9B406 /* hsdb.db */; };
 		753285101E7BF081001788BB /* interaction.db in Resources */ = {isa = PBXBuildFile; fileRef = 7532850F1E7BF081001788BB /* interaction.db */; };
 		75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A001E87F063008FD068 /* MedDicSearchViewController.m */; };
 		75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75383A031E882C7B008FD068 /* MedDicSubTableViewController.m */; };
@@ -103,6 +107,13 @@
 		75269C9A1E8A205200008681 /* LactMedSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedSearchViewController.m; sourceTree = "<group>"; };
 		75269C9C1E8A215700008681 /* LactMedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LactMedTableViewController.h; sourceTree = "<group>"; };
 		75269C9D1E8A215700008681 /* LactMedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedTableViewController.m; sourceTree = "<group>"; };
+		752B21B81E8AAAEA00A9B406 /* HSBDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBDHomeViewController.h; sourceTree = "<group>"; };
+		752B21B91E8AAAEA00A9B406 /* HSBDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBDHomeViewController.m; sourceTree = "<group>"; };
+		752B21BB1E8AAB1000A9B406 /* HSBDSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBDSearchViewController.h; sourceTree = "<group>"; };
+		752B21BC1E8AAB1000A9B406 /* HSBDSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBDSearchViewController.m; sourceTree = "<group>"; };
+		752B21BE1E8AAB2A00A9B406 /* HSBDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBDTableViewController.h; sourceTree = "<group>"; };
+		752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBDTableViewController.m; sourceTree = "<group>"; };
+		752B21C11E8AABA800A9B406 /* hsdb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hsdb.db; sourceTree = "<group>"; };
 		7532850F1E7BF081001788BB /* interaction.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = interaction.db; sourceTree = "<group>"; };
 		753839FF1E87F063008FD068 /* MedDicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedDicSearchViewController.h; sourceTree = "<group>"; };
 		75383A001E87F063008FD068 /* MedDicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedDicSearchViewController.m; sourceTree = "<group>"; };
@@ -219,6 +230,7 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				752B21C11E8AABA800A9B406 /* hsdb.db */,
 				75157E491E8A3D080025C74A /* AIDSDrugInfo.db */,
 				75269C941E8A1E9400008681 /* lactmed.db */,
 				751A80F91E895D2F00D08832 /* ccris2.db */,
@@ -333,6 +345,12 @@
 				75157E441E8A392D0025C74A /* AIDSSearchViewController.m */,
 				75157E461E8A39490025C74A /* AIDSTableViewController.h */,
 				75157E471E8A39490025C74A /* AIDSTableViewController.m */,
+				752B21B81E8AAAEA00A9B406 /* HSBDHomeViewController.h */,
+				752B21B91E8AAAEA00A9B406 /* HSBDHomeViewController.m */,
+				752B21BB1E8AAB1000A9B406 /* HSBDSearchViewController.h */,
+				752B21BC1E8AAB1000A9B406 /* HSBDSearchViewController.m */,
+				752B21BE1E8AAB2A00A9B406 /* HSBDTableViewController.h */,
+				752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -462,6 +480,7 @@
 				75679C4A1E76CF74003B8AFA /* doctordbsupport.db in Resources */,
 				753285101E7BF081001788BB /* interaction.db in Resources */,
 				751A80FA1E895D2F00D08832 /* ccris2.db in Resources */,
+				752B21C21E8AABA800A9B406 /* hsdb.db in Resources */,
 				75DD25021E817D0400136CFA /* healthtopics.db in Resources */,
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
 				75269C951E8A1E9400008681 /* lactmed.db in Resources */,
@@ -507,11 +526,14 @@
 				751A80F21E89355A00D08832 /* CCIRSHomeViewController.m in Sources */,
 				75679C501E76CFDD003B8AFA /* DBManager.m in Sources */,
 				F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */,
+				752B21BD1E8AAB1000A9B406 /* HSBDSearchViewController.m in Sources */,
 				75679C471E76B341003B8AFA /* DrugInfoallinfoViewController.m in Sources */,
 				7584CC7A1E80FD1F009B029F /* HealthTopicsSearchViewController.m in Sources */,
+				752B21C01E8AAB2A00A9B406 /* HSBDTableViewController.m in Sources */,
 				F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */,
 				75ABC5B91E891674007F0D85 /* CCIRSSearchViewController.m in Sources */,
 				7505E9011E79628B0099D2CE /* MultipleDrugInteractionViewController.m in Sources */,
+				752B21BA1E8AAAEA00A9B406 /* HSBDHomeViewController.m in Sources */,
 				F4090B941A0F67D000651F6F /* main.m in Sources */,
 				7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */,
 				75F724671E7C55A2009E39DE /* DrugInteractionMainViewController.m in Sources */,
