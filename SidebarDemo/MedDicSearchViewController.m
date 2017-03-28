@@ -62,6 +62,7 @@
 */
 
 - (IBAction)act_search:(id)sender {
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
     if([self.txt_search.text length] > 3)
     {
         

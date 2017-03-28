@@ -888,6 +888,7 @@ const int FrontViewPositionNone = 0xff;
 
 - (UIPanGestureRecognizer*)panGestureRecognizer
 {
+     [self.view endEditing:YES];
     if ( _panGestureRecognizer == nil )
     {
         _panGestureRecognizer = [[SWRevealViewControllerPanGestureRecognizer alloc] initWithTarget:self action:@selector(_handleRevealGesture:)];
@@ -900,6 +901,7 @@ const int FrontViewPositionNone = 0xff;
 
 - (UITapGestureRecognizer*)tapGestureRecognizer
 {
+     [self.view endEditing:YES];
     if ( _tapGestureRecognizer == nil )
     {
         UITapGestureRecognizer *tapRecognizer =
@@ -925,6 +927,7 @@ const int FrontViewPositionNone = 0xff;
 
 - (IBAction)revealToggle:(id)sender
 {    
+    [self.view endEditing:YES];
     [self revealToggleAnimated:YES];
 }
 
