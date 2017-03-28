@@ -10,6 +10,10 @@
 		7505E9011E79628B0099D2CE /* MultipleDrugInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9001E79628B0099D2CE /* MultipleDrugInteractionViewController.m */; };
 		7505E9041E7962B00099D2CE /* MultipleDrugAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9031E7962B00099D2CE /* MultipleDrugAddViewController.m */; };
 		7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9061E7962F40099D2CE /* CheckForIneractionTableViewController.m */; };
+		75157E421E8A390E0025C74A /* AIDSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75157E411E8A390E0025C74A /* AIDSHomeViewController.m */; };
+		75157E451E8A392D0025C74A /* AIDSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75157E441E8A392D0025C74A /* AIDSSearchViewController.m */; };
+		75157E481E8A39490025C74A /* AIDSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75157E471E8A39490025C74A /* AIDSTableViewController.m */; };
+		75157E4A1E8A3D080025C74A /* AIDSDrugInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 75157E491E8A3D080025C74A /* AIDSDrugInfo.db */; };
 		751A80F21E89355A00D08832 /* CCIRSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F11E89355A00D08832 /* CCIRSHomeViewController.m */; };
 		751A80F51E893E8400D08832 /* CCRISInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */; };
 		751A80FA1E895D2F00D08832 /* ccris2.db in Resources */ = {isa = PBXBuildFile; fileRef = 751A80F91E895D2F00D08832 /* ccris2.db */; };
@@ -80,6 +84,13 @@
 		7505E9031E7962B00099D2CE /* MultipleDrugAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleDrugAddViewController.m; sourceTree = "<group>"; };
 		7505E9051E7962F40099D2CE /* CheckForIneractionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckForIneractionTableViewController.h; sourceTree = "<group>"; };
 		7505E9061E7962F40099D2CE /* CheckForIneractionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckForIneractionTableViewController.m; sourceTree = "<group>"; };
+		75157E401E8A390E0025C74A /* AIDSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDSHomeViewController.h; sourceTree = "<group>"; };
+		75157E411E8A390E0025C74A /* AIDSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDSHomeViewController.m; sourceTree = "<group>"; };
+		75157E431E8A392D0025C74A /* AIDSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDSSearchViewController.h; sourceTree = "<group>"; };
+		75157E441E8A392D0025C74A /* AIDSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDSSearchViewController.m; sourceTree = "<group>"; };
+		75157E461E8A39490025C74A /* AIDSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDSTableViewController.h; sourceTree = "<group>"; };
+		75157E471E8A39490025C74A /* AIDSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDSTableViewController.m; sourceTree = "<group>"; };
+		75157E491E8A3D080025C74A /* AIDSDrugInfo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = AIDSDrugInfo.db; sourceTree = "<group>"; };
 		751A80F01E89355A00D08832 /* CCIRSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIRSHomeViewController.h; sourceTree = "<group>"; };
 		751A80F11E89355A00D08832 /* CCIRSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIRSHomeViewController.m; sourceTree = "<group>"; };
 		751A80F31E893E8400D08832 /* CCRISInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRISInfoTableViewController.h; sourceTree = "<group>"; };
@@ -208,6 +219,7 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				75157E491E8A3D080025C74A /* AIDSDrugInfo.db */,
 				75269C941E8A1E9400008681 /* lactmed.db */,
 				751A80F91E895D2F00D08832 /* ccris2.db */,
 				75DD25011E817D0400136CFA /* healthtopics.db */,
@@ -315,6 +327,12 @@
 				75269C9A1E8A205200008681 /* LactMedSearchViewController.m */,
 				75269C9C1E8A215700008681 /* LactMedTableViewController.h */,
 				75269C9D1E8A215700008681 /* LactMedTableViewController.m */,
+				75157E401E8A390E0025C74A /* AIDSHomeViewController.h */,
+				75157E411E8A390E0025C74A /* AIDSHomeViewController.m */,
+				75157E431E8A392D0025C74A /* AIDSSearchViewController.h */,
+				75157E441E8A392D0025C74A /* AIDSSearchViewController.m */,
+				75157E461E8A39490025C74A /* AIDSTableViewController.h */,
+				75157E471E8A39490025C74A /* AIDSTableViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -439,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75157E4A1E8A3D080025C74A /* AIDSDrugInfo.db in Resources */,
 				75679C4B1E76CF74003B8AFA /* doctorlist.db in Resources */,
 				75679C4A1E76CF74003B8AFA /* doctordbsupport.db in Resources */,
 				753285101E7BF081001788BB /* interaction.db in Resources */,
@@ -479,6 +498,7 @@
 				75679C561E76D6C5003B8AFA /* SearchByNameViewController.m in Sources */,
 				75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */,
 				75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */,
+				75157E421E8A390E0025C74A /* AIDSHomeViewController.m in Sources */,
 				75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */,
 				75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */,
 				75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */,
@@ -505,6 +525,8 @@
 				F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */,
 				F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */,
 				751A80F51E893E8400D08832 /* CCRISInfoTableViewController.m in Sources */,
+				75157E481E8A39490025C74A /* AIDSTableViewController.m in Sources */,
+				75157E451E8A392D0025C74A /* AIDSSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
