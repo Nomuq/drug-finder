@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		328A56395015AE7EF752FEFF /* libPods-DrugFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DAB84324C5344778229578 /* libPods-DrugFinder.a */; };
 		7505E9011E79628B0099D2CE /* MultipleDrugInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9001E79628B0099D2CE /* MultipleDrugInteractionViewController.m */; };
 		7505E9041E7962B00099D2CE /* MultipleDrugAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9031E7962B00099D2CE /* MultipleDrugAddViewController.m */; };
 		7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505E9061E7962F40099D2CE /* CheckForIneractionTableViewController.m */; };
@@ -17,6 +18,17 @@
 		751A80F21E89355A00D08832 /* CCIRSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F11E89355A00D08832 /* CCIRSHomeViewController.m */; };
 		751A80F51E893E8400D08832 /* CCRISInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */; };
 		751A80FA1E895D2F00D08832 /* ccris2.db in Resources */ = {isa = PBXBuildFile; fileRef = 751A80F91E895D2F00D08832 /* ccris2.db */; };
+		751EA2CC1E8F543D00C0CA9A /* BloodBankMapAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2CB1E8F543D00C0CA9A /* BloodBankMapAllViewController.m */; };
+		751EA2D91E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2CD1E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.m */; };
+		751EA2DA1E8F74FC00C0CA9A /* HospitalIndiaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2CE1E8F74FC00C0CA9A /* HospitalIndiaMapViewController.m */; };
+		751EA2DB1E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2CF1E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.m */; };
+		751EA2DC1E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2D11E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.m */; };
+		751EA2DD1E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2D51E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.m */; };
+		751EA2DE1E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2D71E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.m */; };
+		751EA2E31E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2DF1E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.m */; };
+		751EA2E41E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2E11E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.m */; };
+		751EA2E71E8F843B00C0CA9A /* hospitalindloc.db in Resources */ = {isa = PBXBuildFile; fileRef = 751EA2E61E8F843B00C0CA9A /* hospitalindloc.db */; };
+		751EA2EA1E8F874D00C0CA9A /* HospitalHomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EA2E91E8F874D00C0CA9A /* HospitalHomeMainViewController.m */; };
 		75269C951E8A1E9400008681 /* lactmed.db in Resources */ = {isa = PBXBuildFile; fileRef = 75269C941E8A1E9400008681 /* lactmed.db */; };
 		75269C981E8A1FF000008681 /* LactMedHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C971E8A1FF000008681 /* LactMedHomeViewController.m */; };
 		75269C9B1E8A205200008681 /* LactMedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75269C9A1E8A205200008681 /* LactMedSearchViewController.m */; };
@@ -42,7 +54,41 @@
 		7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7584CC7F1E80FD77009B029F /* HealthTopicDescViewController.m */; };
 		7585616B1E756B23002B7729 /* DrugInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585616A1E756B23002B7729 /* DrugInfoViewController.m */; };
 		7585616E1E7582BC002B7729 /* DrugInfoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585616D1E7582BC002B7729 /* DrugInfoDetailsViewController.m */; };
+		758844711E8D57430095A3BF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588446F1E8D57430095A3BF /* GoogleMaps.framework */; };
+		758844721E8D57430095A3BF /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844701E8D57430095A3BF /* GoogleMapsCore.framework */; };
+		758844741E8D57750095A3BF /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844731E8D57750095A3BF /* GoogleMapsBase.framework */; };
+		758844761E8D57E50095A3BF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844751E8D57E50095A3BF /* Accelerate.framework */; };
+		758844781E8D57F00095A3BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844771E8D57F00095A3BF /* CoreData.framework */; };
+		7588447A1E8D57FB0095A3BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844791E8D57FB0095A3BF /* CoreGraphics.framework */; };
+		7588447C1E8D58050095A3BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588447B1E8D58050095A3BF /* CoreLocation.framework */; };
+		7588447E1E8D58140095A3BF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588447D1E8D58140095A3BF /* CoreText.framework */; };
+		758844801E8D581D0095A3BF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588447F1E8D581D0095A3BF /* GLKit.framework */; };
+		758844821E8D58260095A3BF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844811E8D58260095A3BF /* ImageIO.framework */; };
+		758844841E8D582F0095A3BF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844831E8D582F0095A3BF /* libc++.tbd */; };
+		758844861E8D58370095A3BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844851E8D58370095A3BF /* libz.tbd */; };
+		758844881E8D58400095A3BF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844871E8D58400095A3BF /* OpenGLES.framework */; };
+		7588448A1E8D58490095A3BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758844891E8D58490095A3BF /* QuartzCore.framework */; };
+		7588448C1E8D585A0095A3BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588448B1E8D585A0095A3BF /* UIKit.framework */; };
+		7588448F1E8D58DE0095A3BF /* BloodBankMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7588448E1E8D58DE0095A3BF /* BloodBankMapViewController.m */; };
 		75ABC5B91E891674007F0D85 /* CCIRSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ABC5B81E891674007F0D85 /* CCIRSSearchViewController.m */; };
+		75B677E61E8CFBB100A772D1 /* HospitalStateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677E51E8CFBB100A772D1 /* HospitalStateTableViewController.m */; };
+		75B677E91E8CFBD000A772D1 /* HospitalCityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677E81E8CFBD000A772D1 /* HospitalCityTableViewController.m */; };
+		75B677EC1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677EB1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.m */; };
+		75B677EF1E8CFC1700A772D1 /* HospitalNamesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677EE1E8CFC1700A772D1 /* HospitalNamesTableViewController.m */; };
+		75B677F21E8CFC3400A772D1 /* HospitalDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677F11E8CFC3400A772D1 /* HospitalDetailsTableViewController.m */; };
+		75B677F51E8CFC5000A772D1 /* HospitalSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677F41E8CFC5000A772D1 /* HospitalSearchViewController.m */; };
+		75B677F71E8CFD3F00A772D1 /* hospital.db in Resources */ = {isa = PBXBuildFile; fileRef = 75B677F61E8CFD3F00A772D1 /* hospital.db */; };
+		75B677FA1E8D191300A772D1 /* HospitalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677F91E8D191300A772D1 /* HospitalHomeViewController.m */; };
+		75B677FD1E8D2C8500A772D1 /* AboutWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B677FC1E8D2C8500A772D1 /* AboutWebViewViewController.m */; };
+		75B677FF1E8D30F100A772D1 /* LicenseAgreement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75B677FE1E8D30F100A772D1 /* LicenseAgreement.pdf */; };
+		75BE1DB61E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DB51E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.m */; };
+		75BE1DB91E8E8D28005A87A5 /* bloodbank.db in Resources */ = {isa = PBXBuildFile; fileRef = 75BE1DB71E8E8D28005A87A5 /* bloodbank.db */; };
+		75BE1DBA1E8E8D28005A87A5 /* Hospitalindia.db in Resources */ = {isa = PBXBuildFile; fileRef = 75BE1DB81E8E8D28005A87A5 /* Hospitalindia.db */; };
+		75BE1DBD1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DBC1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.m */; };
+		75BE1DC01E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DBF1E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.m */; };
+		75BE1DC31E8EAEE4005A87A5 /* BloodBankStateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DC21E8EAEE4005A87A5 /* BloodBankStateTableViewController.m */; };
+		75BE1DC91E8EAF14005A87A5 /* BloodBankCityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DC81E8EAF14005A87A5 /* BloodBankCityTableViewController.m */; };
+		75BE1DCC1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BE1DCB1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.m */; };
 		75DD25021E817D0400136CFA /* healthtopics.db in Resources */ = {isa = PBXBuildFile; fileRef = 75DD25011E817D0400136CFA /* healthtopics.db */; };
 		75DD25051E8191BD00136CFA /* HealthTopicsAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */; };
 		75E0E9321E7826E100BBDD32 /* DoctorFullinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9311E7826E100BBDD32 /* DoctorFullinfoViewController.m */; };
@@ -54,6 +100,12 @@
 		75E0E9441E784AB200BBDD32 /* DoctorByTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9431E784AB200BBDD32 /* DoctorByTypeTableViewController.m */; };
 		75E0E9471E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9461E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m */; };
 		75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0E9491E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m */; };
+		75E931EF1E8B671A00669343 /* DrugInfoAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E931EE1E8B671A00669343 /* DrugInfoAllTableViewController.m */; };
+		75E931FB1E8B946400669343 /* MainAboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E931FA1E8B946400669343 /* MainAboutTableViewController.m */; };
+		75E931FE1E8B9B8100669343 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E931FD1E8B9B8100669343 /* Reachability.m */; };
+		75E932001E8B9B9700669343 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E931FF1E8B9B9700669343 /* SystemConfiguration.framework */; };
+		75E932081E8BA47F00669343 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E932071E8BA47F00669343 /* HelpViewController.m */; };
+		75F003C31E8EEFBF0007BCFC /* BloodBankHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F003C21E8EEFBF0007BCFC /* BloodBankHomeViewController.m */; };
 		75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724601E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m */; };
 		75F724641E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724631E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m */; };
 		75F724671E7C55A2009E39DE /* DrugInteractionMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F724661E7C55A2009E39DE /* DrugInteractionMainViewController.m */; };
@@ -83,6 +135,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6633EBFD500E8A8B08B41A /* Pods-DrugFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrugFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrugFinder/Pods-DrugFinder.release.xcconfig"; sourceTree = "<group>"; };
+		67B989D79B2C1919FB2E2F03 /* Pods-DrugFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrugFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrugFinder/Pods-DrugFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		71DAB84324C5344778229578 /* libPods-DrugFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrugFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7505E8FF1E79628B0099D2CE /* MultipleDrugInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDrugInteractionViewController.h; sourceTree = "<group>"; };
 		7505E9001E79628B0099D2CE /* MultipleDrugInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleDrugInteractionViewController.m; sourceTree = "<group>"; };
 		7505E9021E7962B00099D2CE /* MultipleDrugAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDrugAddViewController.h; sourceTree = "<group>"; };
@@ -101,6 +156,27 @@
 		751A80F31E893E8400D08832 /* CCRISInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRISInfoTableViewController.h; sourceTree = "<group>"; };
 		751A80F41E893E8400D08832 /* CCRISInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRISInfoTableViewController.m; sourceTree = "<group>"; };
 		751A80F91E895D2F00D08832 /* ccris2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ccris2.db; sourceTree = "<group>"; };
+		751EA2CA1E8F543D00C0CA9A /* BloodBankMapAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankMapAllViewController.h; sourceTree = "<group>"; };
+		751EA2CB1E8F543D00C0CA9A /* BloodBankMapAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankMapAllViewController.m; sourceTree = "<group>"; };
+		751EA2CD1E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaMapAllViewController.m; sourceTree = "<group>"; };
+		751EA2CE1E8F74FC00C0CA9A /* HospitalIndiaMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaMapViewController.m; sourceTree = "<group>"; };
+		751EA2CF1E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaStateTableViewController.m; sourceTree = "<group>"; };
+		751EA2D01E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaStateTableViewController.h; sourceTree = "<group>"; };
+		751EA2D11E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaSearchByNameViewController.m; sourceTree = "<group>"; };
+		751EA2D21E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaSearchByNameViewController.h; sourceTree = "<group>"; };
+		751EA2D31E8F74FC00C0CA9A /* HospitalIndiaMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaMapViewController.h; sourceTree = "<group>"; };
+		751EA2D41E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaMapAllViewController.h; sourceTree = "<group>"; };
+		751EA2D51E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaInfoAllTableViewController.m; sourceTree = "<group>"; };
+		751EA2D61E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaInfoAllTableViewController.h; sourceTree = "<group>"; };
+		751EA2D71E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaHomeViewController.m; sourceTree = "<group>"; };
+		751EA2D81E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaHomeViewController.h; sourceTree = "<group>"; };
+		751EA2DF1E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaCityTableViewController.m; sourceTree = "<group>"; };
+		751EA2E01E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaCityTableViewController.h; sourceTree = "<group>"; };
+		751EA2E11E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalIndiaCityAllTableViewController.m; sourceTree = "<group>"; };
+		751EA2E21E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalIndiaCityAllTableViewController.h; sourceTree = "<group>"; };
+		751EA2E61E8F843B00C0CA9A /* hospitalindloc.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hospitalindloc.db; sourceTree = "<group>"; };
+		751EA2E81E8F874D00C0CA9A /* HospitalHomeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalHomeMainViewController.h; sourceTree = "<group>"; };
+		751EA2E91E8F874D00C0CA9A /* HospitalHomeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalHomeMainViewController.m; sourceTree = "<group>"; };
 		75269C941E8A1E9400008681 /* lactmed.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = lactmed.db; sourceTree = "<group>"; };
 		75269C961E8A1FF000008681 /* LactMedHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LactMedHomeViewController.h; sourceTree = "<group>"; };
 		75269C971E8A1FF000008681 /* LactMedHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LactMedHomeViewController.m; sourceTree = "<group>"; };
@@ -143,8 +219,58 @@
 		7585616A1E756B23002B7729 /* DrugInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoViewController.m; sourceTree = "<group>"; };
 		7585616C1E7582BC002B7729 /* DrugInfoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoDetailsViewController.h; sourceTree = "<group>"; };
 		7585616D1E7582BC002B7729 /* DrugInfoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoDetailsViewController.m; sourceTree = "<group>"; };
+		7588446F1E8D57430095A3BF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		758844701E8D57430095A3BF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		758844731E8D57750095A3BF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		758844751E8D57E50095A3BF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		758844771E8D57F00095A3BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		758844791E8D57FB0095A3BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7588447B1E8D58050095A3BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7588447D1E8D58140095A3BF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7588447F1E8D581D0095A3BF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		758844811E8D58260095A3BF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		758844831E8D582F0095A3BF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		758844851E8D58370095A3BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		758844871E8D58400095A3BF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		758844891E8D58490095A3BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7588448B1E8D585A0095A3BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7588448D1E8D58DE0095A3BF /* BloodBankMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankMapViewController.h; sourceTree = "<group>"; };
+		7588448E1E8D58DE0095A3BF /* BloodBankMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankMapViewController.m; sourceTree = "<group>"; };
 		75ABC5B71E891674007F0D85 /* CCIRSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIRSSearchViewController.h; sourceTree = "<group>"; };
 		75ABC5B81E891674007F0D85 /* CCIRSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIRSSearchViewController.m; sourceTree = "<group>"; };
+		75B677E41E8CFBB100A772D1 /* HospitalStateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalStateTableViewController.h; sourceTree = "<group>"; };
+		75B677E51E8CFBB100A772D1 /* HospitalStateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalStateTableViewController.m; sourceTree = "<group>"; };
+		75B677E71E8CFBD000A772D1 /* HospitalCityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalCityTableViewController.h; sourceTree = "<group>"; };
+		75B677E81E8CFBD000A772D1 /* HospitalCityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalCityTableViewController.m; sourceTree = "<group>"; };
+		75B677EA1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalZipCodeTableViewController.h; sourceTree = "<group>"; };
+		75B677EB1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalZipCodeTableViewController.m; sourceTree = "<group>"; };
+		75B677ED1E8CFC1700A772D1 /* HospitalNamesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalNamesTableViewController.h; sourceTree = "<group>"; };
+		75B677EE1E8CFC1700A772D1 /* HospitalNamesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalNamesTableViewController.m; sourceTree = "<group>"; };
+		75B677F01E8CFC3400A772D1 /* HospitalDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailsTableViewController.h; sourceTree = "<group>"; };
+		75B677F11E8CFC3400A772D1 /* HospitalDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailsTableViewController.m; sourceTree = "<group>"; };
+		75B677F31E8CFC5000A772D1 /* HospitalSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalSearchViewController.h; sourceTree = "<group>"; };
+		75B677F41E8CFC5000A772D1 /* HospitalSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalSearchViewController.m; sourceTree = "<group>"; };
+		75B677F61E8CFD3F00A772D1 /* hospital.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hospital.db; sourceTree = "<group>"; };
+		75B677F81E8D191300A772D1 /* HospitalHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalHomeViewController.h; sourceTree = "<group>"; };
+		75B677F91E8D191300A772D1 /* HospitalHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalHomeViewController.m; sourceTree = "<group>"; };
+		75B677FB1E8D2C8500A772D1 /* AboutWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWebViewViewController.h; sourceTree = "<group>"; };
+		75B677FC1E8D2C8500A772D1 /* AboutWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWebViewViewController.m; sourceTree = "<group>"; };
+		75B677FE1E8D30F100A772D1 /* LicenseAgreement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LicenseAgreement.pdf; sourceTree = "<group>"; };
+		75BE1DB41E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankSearchByNameViewController.h; sourceTree = "<group>"; };
+		75BE1DB51E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankSearchByNameViewController.m; sourceTree = "<group>"; };
+		75BE1DB71E8E8D28005A87A5 /* bloodbank.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloodbank.db; sourceTree = "<group>"; };
+		75BE1DB81E8E8D28005A87A5 /* Hospitalindia.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hospitalindia.db; sourceTree = "<group>"; };
+		75BE1DBB1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankInfoAllTableViewController.h; sourceTree = "<group>"; };
+		75BE1DBC1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankInfoAllTableViewController.m; sourceTree = "<group>"; };
+		75BE1DBE1E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankSearchbyAddViewController.h; sourceTree = "<group>"; };
+		75BE1DBF1E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankSearchbyAddViewController.m; sourceTree = "<group>"; };
+		75BE1DC11E8EAEE4005A87A5 /* BloodBankStateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankStateTableViewController.h; sourceTree = "<group>"; };
+		75BE1DC21E8EAEE4005A87A5 /* BloodBankStateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankStateTableViewController.m; sourceTree = "<group>"; };
+		75BE1DC71E8EAF14005A87A5 /* BloodBankCityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankCityTableViewController.h; sourceTree = "<group>"; };
+		75BE1DC81E8EAF14005A87A5 /* BloodBankCityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankCityTableViewController.m; sourceTree = "<group>"; };
+		75BE1DCA1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankCityAllTableViewController.h; sourceTree = "<group>"; };
+		75BE1DCB1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankCityAllTableViewController.m; sourceTree = "<group>"; };
+		75BE1DCD1E8ED651005A87A5 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		75DD25011E817D0400136CFA /* healthtopics.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthtopics.db; sourceTree = "<group>"; };
 		75DD25031E8191BD00136CFA /* HealthTopicsAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthTopicsAllTableViewController.h; sourceTree = "<group>"; };
 		75DD25041E8191BD00136CFA /* HealthTopicsAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTopicsAllTableViewController.m; sourceTree = "<group>"; };
@@ -166,6 +292,17 @@
 		75E0E9461E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorBySpecilityTableViewController.m; sourceTree = "<group>"; };
 		75E0E9481E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDoctorBySpecilityTableViewController.h; sourceTree = "<group>"; };
 		75E0E9491E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDoctorBySpecilityTableViewController.m; sourceTree = "<group>"; };
+		75E931ED1E8B671A00669343 /* DrugInfoAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoAllTableViewController.h; sourceTree = "<group>"; };
+		75E931EE1E8B671A00669343 /* DrugInfoAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoAllTableViewController.m; sourceTree = "<group>"; };
+		75E931F91E8B946400669343 /* MainAboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAboutTableViewController.h; sourceTree = "<group>"; };
+		75E931FA1E8B946400669343 /* MainAboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAboutTableViewController.m; sourceTree = "<group>"; };
+		75E931FC1E8B9B8100669343 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		75E931FD1E8B9B8100669343 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		75E931FF1E8B9B9700669343 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75E932061E8BA47F00669343 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		75E932071E8BA47F00669343 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		75F003C11E8EEFBF0007BCFC /* BloodBankHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodBankHomeViewController.h; sourceTree = "<group>"; };
+		75F003C21E8EEFBF0007BCFC /* BloodBankHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodBankHomeViewController.m; sourceTree = "<group>"; };
 		75F7245F1E7C5498009E39DE /* SingleDrugInteractionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDrugInteractionSearchViewController.h; sourceTree = "<group>"; };
 		75F724601E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleDrugInteractionSearchViewController.m; sourceTree = "<group>"; };
 		75F724621E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDrugInteractionInfoTableViewController.h; sourceTree = "<group>"; };
@@ -203,10 +340,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7588448C1E8D585A0095A3BF /* UIKit.framework in Frameworks */,
+				7588448A1E8D58490095A3BF /* QuartzCore.framework in Frameworks */,
+				758844881E8D58400095A3BF /* OpenGLES.framework in Frameworks */,
+				758844861E8D58370095A3BF /* libz.tbd in Frameworks */,
+				758844841E8D582F0095A3BF /* libc++.tbd in Frameworks */,
+				758844821E8D58260095A3BF /* ImageIO.framework in Frameworks */,
+				758844801E8D581D0095A3BF /* GLKit.framework in Frameworks */,
+				7588447E1E8D58140095A3BF /* CoreText.framework in Frameworks */,
+				7588447C1E8D58050095A3BF /* CoreLocation.framework in Frameworks */,
+				7588447A1E8D57FB0095A3BF /* CoreGraphics.framework in Frameworks */,
+				758844781E8D57F00095A3BF /* CoreData.framework in Frameworks */,
+				758844761E8D57E50095A3BF /* Accelerate.framework in Frameworks */,
+				75E932001E8B9B9700669343 /* SystemConfiguration.framework in Frameworks */,
+				758844711E8D57430095A3BF /* GoogleMaps.framework in Frameworks */,
 				75383A081E8836CE008FD068 /* AVKit.framework in Frameworks */,
+				758844741E8D57750095A3BF /* GoogleMapsBase.framework in Frameworks */,
+				758844721E8D57430095A3BF /* GoogleMapsCore.framework in Frameworks */,
 				75383A061E8836C9008FD068 /* AVFoundation.framework in Frameworks */,
 				75679C531E76D01E003B8AFA /* libsqlite3.tbd in Frameworks */,
 				F4090BCC1A10563200651F6F /* MapKit.framework in Frameworks */,
+				328A56395015AE7EF752FEFF /* libPods-DrugFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,12 +374,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		749E248FF42107C80D289BE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B989D79B2C1919FB2E2F03 /* Pods-DrugFinder.debug.xcconfig */,
+				2A6633EBFD500E8A8B08B41A /* Pods-DrugFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75679C511E76D01E003B8AFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7588448B1E8D585A0095A3BF /* UIKit.framework */,
+				758844891E8D58490095A3BF /* QuartzCore.framework */,
+				758844871E8D58400095A3BF /* OpenGLES.framework */,
+				758844851E8D58370095A3BF /* libz.tbd */,
+				758844831E8D582F0095A3BF /* libc++.tbd */,
+				758844811E8D58260095A3BF /* ImageIO.framework */,
+				7588447F1E8D581D0095A3BF /* GLKit.framework */,
+				7588447D1E8D58140095A3BF /* CoreText.framework */,
+				7588447B1E8D58050095A3BF /* CoreLocation.framework */,
+				758844791E8D57FB0095A3BF /* CoreGraphics.framework */,
+				758844771E8D57F00095A3BF /* CoreData.framework */,
+				758844751E8D57E50095A3BF /* Accelerate.framework */,
+				758844731E8D57750095A3BF /* GoogleMapsBase.framework */,
+				7588446F1E8D57430095A3BF /* GoogleMaps.framework */,
+				758844701E8D57430095A3BF /* GoogleMapsCore.framework */,
+				75E931FF1E8B9B9700669343 /* SystemConfiguration.framework */,
 				75383A071E8836CE008FD068 /* AVKit.framework */,
 				75383A051E8836C9008FD068 /* AVFoundation.framework */,
 				75679C521E76D01E003B8AFA /* libsqlite3.tbd */,
+				71DAB84324C5344778229578 /* libPods-DrugFinder.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,6 +413,13 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				751EA2E61E8F843B00C0CA9A /* hospitalindloc.db */,
+				75BE1DB71E8E8D28005A87A5 /* bloodbank.db */,
+				75BE1DB81E8E8D28005A87A5 /* Hospitalindia.db */,
+				75B677FE1E8D30F100A772D1 /* LicenseAgreement.pdf */,
+				75B677F61E8CFD3F00A772D1 /* hospital.db */,
+				75E931FC1E8B9B8100669343 /* Reachability.h */,
+				75E931FD1E8B9B8100669343 /* Reachability.m */,
 				752B21C11E8AABA800A9B406 /* hsdb.db */,
 				75157E491E8A3D080025C74A /* AIDSDrugInfo.db */,
 				75269C941E8A1E9400008681 /* lactmed.db */,
@@ -248,6 +435,7 @@
 				F4090BAA1A0F67D000651F6F /* SidebarDemoTests */,
 				F4090B8F1A0F67D000651F6F /* Products */,
 				75679C511E76D01E003B8AFA /* Frameworks */,
+				749E248FF42107C80D289BE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -284,6 +472,8 @@
 				7585616A1E756B23002B7729 /* DrugInfoViewController.m */,
 				7585616C1E7582BC002B7729 /* DrugInfoDetailsViewController.h */,
 				7585616D1E7582BC002B7729 /* DrugInfoDetailsViewController.m */,
+				75E931ED1E8B671A00669343 /* DrugInfoAllTableViewController.h */,
+				75E931EE1E8B671A00669343 /* DrugInfoAllTableViewController.m */,
 				75679C451E76B341003B8AFA /* DrugInfoallinfoViewController.h */,
 				75679C461E76B341003B8AFA /* DrugInfoallinfoViewController.m */,
 				75679C541E76D6C5003B8AFA /* SearchByNameViewController.h */,
@@ -356,6 +546,63 @@
 				752B21BF1E8AAB2A00A9B406 /* HSBDTableViewController.m */,
 				752B21C31E8AD07700A9B406 /* MedDicHomeViewController.h */,
 				752B21C41E8AD07700A9B406 /* MedDicHomeViewController.m */,
+				75E931F91E8B946400669343 /* MainAboutTableViewController.h */,
+				75E931FA1E8B946400669343 /* MainAboutTableViewController.m */,
+				75E932061E8BA47F00669343 /* HelpViewController.h */,
+				75E932071E8BA47F00669343 /* HelpViewController.m */,
+				75B677E41E8CFBB100A772D1 /* HospitalStateTableViewController.h */,
+				75B677E51E8CFBB100A772D1 /* HospitalStateTableViewController.m */,
+				75B677E71E8CFBD000A772D1 /* HospitalCityTableViewController.h */,
+				75B677E81E8CFBD000A772D1 /* HospitalCityTableViewController.m */,
+				75B677EA1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.h */,
+				75B677EB1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.m */,
+				75B677ED1E8CFC1700A772D1 /* HospitalNamesTableViewController.h */,
+				75B677EE1E8CFC1700A772D1 /* HospitalNamesTableViewController.m */,
+				75B677F01E8CFC3400A772D1 /* HospitalDetailsTableViewController.h */,
+				75B677F11E8CFC3400A772D1 /* HospitalDetailsTableViewController.m */,
+				75B677F31E8CFC5000A772D1 /* HospitalSearchViewController.h */,
+				75B677F41E8CFC5000A772D1 /* HospitalSearchViewController.m */,
+				75B677F81E8D191300A772D1 /* HospitalHomeViewController.h */,
+				75B677F91E8D191300A772D1 /* HospitalHomeViewController.m */,
+				75B677FB1E8D2C8500A772D1 /* AboutWebViewViewController.h */,
+				75B677FC1E8D2C8500A772D1 /* AboutWebViewViewController.m */,
+				75F003C11E8EEFBF0007BCFC /* BloodBankHomeViewController.h */,
+				75F003C21E8EEFBF0007BCFC /* BloodBankHomeViewController.m */,
+				7588448D1E8D58DE0095A3BF /* BloodBankMapViewController.h */,
+				7588448E1E8D58DE0095A3BF /* BloodBankMapViewController.m */,
+				75BE1DCD1E8ED651005A87A5 /* Location.gpx */,
+				751EA2CA1E8F543D00C0CA9A /* BloodBankMapAllViewController.h */,
+				751EA2CB1E8F543D00C0CA9A /* BloodBankMapAllViewController.m */,
+				75BE1DB41E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.h */,
+				75BE1DB51E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.m */,
+				75BE1DBB1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.h */,
+				75BE1DBC1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.m */,
+				75BE1DBE1E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.h */,
+				75BE1DBF1E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.m */,
+				75BE1DC11E8EAEE4005A87A5 /* BloodBankStateTableViewController.h */,
+				75BE1DC21E8EAEE4005A87A5 /* BloodBankStateTableViewController.m */,
+				75BE1DC71E8EAF14005A87A5 /* BloodBankCityTableViewController.h */,
+				75BE1DC81E8EAF14005A87A5 /* BloodBankCityTableViewController.m */,
+				75BE1DCA1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.h */,
+				75BE1DCB1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.m */,
+				751EA2E01E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.h */,
+				751EA2DF1E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.m */,
+				751EA2E21E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.h */,
+				751EA2E11E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.m */,
+				751EA2D41E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.h */,
+				751EA2CD1E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.m */,
+				751EA2D31E8F74FC00C0CA9A /* HospitalIndiaMapViewController.h */,
+				751EA2CE1E8F74FC00C0CA9A /* HospitalIndiaMapViewController.m */,
+				751EA2D01E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.h */,
+				751EA2CF1E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.m */,
+				751EA2D21E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.h */,
+				751EA2D11E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.m */,
+				751EA2D61E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.h */,
+				751EA2D51E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.m */,
+				751EA2D81E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.h */,
+				751EA2D71E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.m */,
+				751EA2E81E8F874D00C0CA9A /* HospitalHomeMainViewController.h */,
+				751EA2E91E8F874D00C0CA9A /* HospitalHomeMainViewController.m */,
 			);
 			path = SidebarDemo;
 			sourceTree = "<group>";
@@ -402,9 +649,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4090BB11A0F67D000651F6F /* Build configuration list for PBXNativeTarget "DrugFinder" */;
 			buildPhases = (
+				F8E26CDC462155C249D9A0A8 /* [CP] Check Pods Manifest.lock */,
 				F4090B8A1A0F67D000651F6F /* Sources */,
 				F4090B8B1A0F67D000651F6F /* Frameworks */,
 				F4090B8C1A0F67D000651F6F /* Resources */,
+				AEE73B115F28CEB80978E4A2 /* [CP] Embed Pods Frameworks */,
+				A99D88919A0C8315BE22E730 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -482,14 +732,19 @@
 			files = (
 				75157E4A1E8A3D080025C74A /* AIDSDrugInfo.db in Resources */,
 				75679C4B1E76CF74003B8AFA /* doctorlist.db in Resources */,
+				751EA2E71E8F843B00C0CA9A /* hospitalindloc.db in Resources */,
 				75679C4A1E76CF74003B8AFA /* doctordbsupport.db in Resources */,
 				753285101E7BF081001788BB /* interaction.db in Resources */,
 				751A80FA1E895D2F00D08832 /* ccris2.db in Resources */,
 				752B21C21E8AABA800A9B406 /* hsdb.db in Resources */,
+				75B677FF1E8D30F100A772D1 /* LicenseAgreement.pdf in Resources */,
 				75DD25021E817D0400136CFA /* healthtopics.db in Resources */,
+				75B677F71E8CFD3F00A772D1 /* hospital.db in Resources */,
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
+				75BE1DB91E8E8D28005A87A5 /* bloodbank.db in Resources */,
 				75269C951E8A1E9400008681 /* lactmed.db in Resources */,
 				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
+				75BE1DBA1E8E8D28005A87A5 /* Hospitalindia.db in Resources */,
 				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,42 +758,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A99D88919A0C8315BE22E730 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrugFinder/Pods-DrugFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE73B115F28CEB80978E4A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrugFinder/Pods-DrugFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E26CDC462155C249D9A0A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4090B8A1A0F67D000651F6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				75269C9E1E8A215700008681 /* LactMedTableViewController.m in Sources */,
+				75B677FD1E8D2C8500A772D1 /* AboutWebViewViewController.m in Sources */,
+				75BE1DC01E8E9C76005A87A5 /* BloodBankSearchbyAddViewController.m in Sources */,
 				75E0E9411E7837A500BBDD32 /* ZipcodeTableViewController.m in Sources */,
 				F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */,
+				75B677FA1E8D191300A772D1 /* HospitalHomeViewController.m in Sources */,
+				751EA2E41E8F750F00C0CA9A /* HospitalIndiaCityAllTableViewController.m in Sources */,
 				75269C9B1E8A205200008681 /* LactMedSearchViewController.m in Sources */,
+				75E931FE1E8B9B8100669343 /* Reachability.m in Sources */,
+				751EA2DA1E8F74FC00C0CA9A /* HospitalIndiaMapViewController.m in Sources */,
 				75269C981E8A1FF000008681 /* LactMedHomeViewController.m in Sources */,
+				75BE1DBD1E8E8E62005A87A5 /* BloodBankInfoAllTableViewController.m in Sources */,
 				7505E9041E7962B00099D2CE /* MultipleDrugAddViewController.m in Sources */,
 				7585616E1E7582BC002B7729 /* DrugInfoDetailsViewController.m in Sources */,
 				75E0E93E1E78378F00BBDD32 /* DoctorbyAddressTableViewController.m in Sources */,
 				75E0E9351E78373100BBDD32 /* CountryTableViewController.m in Sources */,
 				75E0E9441E784AB200BBDD32 /* DoctorByTypeTableViewController.m in Sources */,
+				75B677EF1E8CFC1700A772D1 /* HospitalNamesTableViewController.m in Sources */,
 				75E0E9381E78374600BBDD32 /* StateTableViewController.m in Sources */,
 				75679C561E76D6C5003B8AFA /* SearchByNameViewController.m in Sources */,
+				751EA2D91E8F74FC00C0CA9A /* HospitalIndiaMapAllViewController.m in Sources */,
 				75383A011E87F063008FD068 /* MedDicSearchViewController.m in Sources */,
+				75B677EC1E8CFBEF00A772D1 /* HospitalZipCodeTableViewController.m in Sources */,
+				751EA2EA1E8F874D00C0CA9A /* HospitalHomeMainViewController.m in Sources */,
 				75E0E94A1E784AF400BBDD32 /* AllDoctorBySpecilityTableViewController.m in Sources */,
 				75157E421E8A390E0025C74A /* AIDSHomeViewController.m in Sources */,
+				751EA2E31E8F750F00C0CA9A /* HospitalIndiaCityTableViewController.m in Sources */,
+				75E931FB1E8B946400669343 /* MainAboutTableViewController.m in Sources */,
 				75F724611E7C5498009E39DE /* SingleDrugInteractionSearchViewController.m in Sources */,
+				751EA2DD1E8F74FC00C0CA9A /* HospitalIndiaInfoAllTableViewController.m in Sources */,
 				75383A041E882C7C008FD068 /* MedDicSubTableViewController.m in Sources */,
+				75BE1DCC1E8EAF2D005A87A5 /* BloodBankCityAllTableViewController.m in Sources */,
 				752B21C51E8AD07700A9B406 /* MedDicHomeViewController.m in Sources */,
+				75E931EF1E8B671A00669343 /* DrugInfoAllTableViewController.m in Sources */,
 				75679C591E76D70B003B8AFA /* SearchByNameTableViewController.m in Sources */,
+				75B677F21E8CFC3400A772D1 /* HospitalDetailsTableViewController.m in Sources */,
 				7584CC801E80FD77009B029F /* HealthTopicDescViewController.m in Sources */,
 				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,
+				75BE1DB61E8E8D0E005A87A5 /* BloodBankSearchByNameViewController.m in Sources */,
 				751A80F21E89355A00D08832 /* CCIRSHomeViewController.m in Sources */,
 				75679C501E76CFDD003B8AFA /* DBManager.m in Sources */,
+				75BE1DC31E8EAEE4005A87A5 /* BloodBankStateTableViewController.m in Sources */,
 				F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */,
 				752B21BD1E8AAB1000A9B406 /* HSBDSearchViewController.m in Sources */,
 				75679C471E76B341003B8AFA /* DrugInfoallinfoViewController.m in Sources */,
 				7584CC7A1E80FD1F009B029F /* HealthTopicsSearchViewController.m in Sources */,
+				75F003C31E8EEFBF0007BCFC /* BloodBankHomeViewController.m in Sources */,
 				752B21C01E8AAB2A00A9B406 /* HSBDTableViewController.m in Sources */,
+				751EA2DB1E8F74FC00C0CA9A /* HospitalIndiaStateTableViewController.m in Sources */,
+				7588448F1E8D58DE0095A3BF /* BloodBankMapViewController.m in Sources */,
+				75E932081E8BA47F00669343 /* HelpViewController.m in Sources */,
 				F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */,
 				75ABC5B91E891674007F0D85 /* CCIRSSearchViewController.m in Sources */,
 				7505E9011E79628B0099D2CE /* MultipleDrugInteractionViewController.m in Sources */,
+				75B677E91E8CFBD000A772D1 /* HospitalCityTableViewController.m in Sources */,
 				752B21BA1E8AAAEA00A9B406 /* HSBDHomeViewController.m in Sources */,
 				F4090B941A0F67D000651F6F /* main.m in Sources */,
 				7505E9071E7962F40099D2CE /* CheckForIneractionTableViewController.m in Sources */,
@@ -549,11 +876,17 @@
 				75E0E9321E7826E100BBDD32 /* DoctorFullinfoViewController.m in Sources */,
 				75E0E9471E784AD200BBDD32 /* DoctorBySpecilityTableViewController.m in Sources */,
 				75F724641E7C54C6009E39DE /* SingleDrugInteractionInfoTableViewController.m in Sources */,
+				75B677E61E8CFBB100A772D1 /* HospitalStateTableViewController.m in Sources */,
+				751EA2DE1E8F74FC00C0CA9A /* HospitalIndiaHomeViewController.m in Sources */,
 				7585616B1E756B23002B7729 /* DrugInfoViewController.m in Sources */,
+				75BE1DC91E8EAF14005A87A5 /* BloodBankCityTableViewController.m in Sources */,
 				F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */,
+				75B677F51E8CFC5000A772D1 /* HospitalSearchViewController.m in Sources */,
 				F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */,
+				751EA2CC1E8F543D00C0CA9A /* BloodBankMapAllViewController.m in Sources */,
 				751A80F51E893E8400D08832 /* CCRISInfoTableViewController.m in Sources */,
 				75157E481E8A39490025C74A /* AIDSTableViewController.m in Sources */,
+				751EA2DC1E8F74FC00C0CA9A /* HospitalIndiaSearchByNameViewController.m in Sources */,
 				75157E451E8A392D0025C74A /* AIDSSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,9 +1014,15 @@
 		};
 		F4090BB21A0F67D000651F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B989D79B2C1919FB2E2F03 /* Pods-DrugFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+				);
 				INFOPLIST_FILE = SidebarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drugfinder;
@@ -693,9 +1032,15 @@
 		};
 		F4090BB31A0F67D000651F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6633EBFD500E8A8B08B41A /* Pods-DrugFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+				);
 				INFOPLIST_FILE = SidebarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drugfinder;

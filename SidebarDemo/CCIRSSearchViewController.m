@@ -52,7 +52,7 @@
 - (IBAction)act_search:(id)sender {
     if([_txt_search.text length] > 2)
     {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
+        //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
         NSString *str = [self.txt_search.text stringByAppendingString:@"%"];
         NSString *query =[NSString stringWithFormat:@"select * from ccris where nameofsubstance LIKE '%@'", str];
         //NSLog(@"%@", query);

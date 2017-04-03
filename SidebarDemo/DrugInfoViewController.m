@@ -60,7 +60,7 @@
         } @catch (NSException *exception) {
             NSLog(@"%@", exception);
         }
-
+        
         suggestionList = [dic objectForKey:@"suggestionGroup"];
         
         suggestion = [suggestionList objectForKey:@"suggestionList"];

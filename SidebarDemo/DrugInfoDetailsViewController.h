@@ -19,6 +19,8 @@
     NSArray *arr23;
     NSDictionary *resultdic;
     
+        UIView* loadingView;
+    
     
 }
 

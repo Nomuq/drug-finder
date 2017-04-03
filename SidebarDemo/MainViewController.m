@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "SWRevealViewController.h"
-
+#import "DrugInfoViewController.h"
 @interface MainViewController ()
 
 @end
@@ -19,7 +19,18 @@
     [super viewDidLoad];
 
     self.title = @"Home";
-
+    [self.DrugInfo.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.DoctorList.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.Interaction.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.HealthTopics.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.Finder.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.LactMed.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.CCRIS.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.HSDB.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.ChemID.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.AIDSMeds.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.Dict.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.About.layer setBorderColor:[[UIColor whiteColor] CGColor]];
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
     {
@@ -44,4 +55,11 @@
 }
 */
 
+- (IBAction)DrugInfo:(id)sender {
+    //comments
+    DrugInfoViewController *update = [self.storyboard instantiateViewControllerWithIdentifier:@"comments"];
+
+    
+    [self.navigationController pushViewController:update animated:YES];
+}
 @end

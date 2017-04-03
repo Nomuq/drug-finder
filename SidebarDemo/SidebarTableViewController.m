@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //[self.view endEditing:YES];
-    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag",@"aids",@"meddic",@"toxnet",@"search"];
+    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag",@"aids",@"meddic",@"toxnet",@"search",@"hospitals",@"bloodbank"];
     
 }
 

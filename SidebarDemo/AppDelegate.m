@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Reachability.h"
+@import GoogleMaps;
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Allocate a reachability object
+    //self.locationManager = [[CLLocationManager alloc] init];
+    //[self.locationManager requestWhenInUseAuthorization];
+    [GMSServices provideAPIKey:@"AIzaSyA0Ug3UxcWgDfKBr-rkppAB0ZT7t6iXXkA"];
+    Reachability* reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    
+    // Set the blocks
+    reach.reachableBlock = ^(Reachability*reach)
+    {
+        // keep in mind this is called on a background thread
+        // and if you are updating the UI it needs to happen
+        // on the main thread, like this:
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"REACHABLE!");
+        });
+    };
+    
+    reach.unreachableBlock = ^(Reachability*reach)
+    {
+        NSLog(@"UNREACHABLE!");
+    };
+    
+    // Start the notifier, which will cause the reachability object to retain itself!
+    [reach startNotifier];
     return YES;
 }
 

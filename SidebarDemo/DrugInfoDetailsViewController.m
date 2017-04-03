@@ -7,8 +7,7 @@
 //
 
 #import "DrugInfoDetailsViewController.h"
-#import "DrugInfoallinfoViewController.h"
-
+#import "DrugInfoAllTableViewController.h"
 @interface DrugInfoDetailsViewController ()
 
 @end
@@ -20,7 +19,36 @@
     self.title = self.strname;
     // Do any additional setup after loading the view.
     // https://rxnav.nlm.nih.gov/REST/drugs?name=cymbalta
+    
+    loadingView = [[UIView alloc]initWithFrame:CGRectMake(100, 400, 80, 80)];
+    loadingView.backgroundColor = [UIColor colorWithWhite:0. alpha:0.6];
+    loadingView.layer.cornerRadius = 5;
+    
+    UIActivityIndicatorView *activityView=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    activityView.center = CGPointMake(loadingView.frame.size.width / 2.0, 35);
+    [activityView startAnimating];
+    activityView.tag = 100;
+    [loadingView addSubview:activityView];
+    
+    UILabel* lblLoading = [[UILabel alloc]initWithFrame:CGRectMake(0, 48, 80, 30)];
+    lblLoading.text = @"Loading...";
+    lblLoading.textColor = [UIColor whiteColor];
+    lblLoading.font = [UIFont fontWithName:lblLoading.font.fontName size:15];
+    lblLoading.textAlignment = NSTextAlignmentCenter;
+    [loadingView addSubview:lblLoading];
+    loadingView.center = self.view.center;
+    [self.view addSubview:loadingView];
+    
+    
+    [self loaddata];
+    [self.tableview reloadData];
 
+    
+//
+//    arr2 = [arr23 objectAtIndex:0];
+}
+-(void)loaddata {
+     [loadingView setHidden:NO];
     NSString *str =[NSString stringWithFormat:@"https://rxnav.nlm.nih.gov/REST/drugs.json?name=%@",self.strname];
     NSURL *url = [[NSURL alloc]initWithString:str];
     @try {
@@ -29,7 +57,7 @@
     } @catch (NSException *exception) {
         NSLog(@"%@", exception);
     }
-   
+    
     
     
     drugGroup = [dic objectForKey:@"drugGroup"];
@@ -42,10 +70,11 @@
     for (conceptProperties in arr) {
         arr2 = [conceptProperties objectForKey:@"conceptProperties"];
     }
-//
-//    arr2 = [arr23 objectAtIndex:0];
+     [loadingView setHidden:YES];
+    if (dic == nil) {
+        [self loaddata];
+    }
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -70,6 +99,8 @@
     
     resultdic = arr2[indexPath.row];
     //NSLog(@"%@", resultdic);
+    cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    cell.textLabel.numberOfLines = 0;
     cell.textLabel.text = [resultdic objectForKey:@"name"];
     
     
@@ -80,12 +111,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     resultdic = arr2[indexPath.row];
-    DrugInfoallinfoViewController *dfd = [self.storyboard instantiateViewControllerWithIdentifier:@"alldruginfo"];
+    DrugInfoAllTableViewController *dfd = [self.storyboard instantiateViewControllerWithIdentifier:@"alldruginfotable"];
     dfd.rxcui = [resultdic objectForKey:@"rxcui"];
-    
+    dfd.popname = self.strname;
     [self.navigationController pushViewController:dfd animated:YES];
 }
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewAutomaticDimension;
+}
 /*
 #pragma mark - Navigation
 
